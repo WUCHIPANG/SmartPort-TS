@@ -1,0 +1,1024 @@
+{
+  "systemNavMenu": {
+    "login": "登录",
+    "dashboard": "系统首页",
+    "companyManage": "企业管理",
+    "companyMaintain": "企业维护",
+    "companyMaintainEdit": "编辑公司/个人",
+    "vehicleManage": "载具管理",
+    "vehicleModelMaintain": "厂牌型号维护",
+    "vehicleMaintain": "载具列表",
+    "vehicleMaintainEdit": "编辑载具",
+    "vehicleMonitorDetail": "载具监视",
+    "intelligentFunctionManage": "智能功能管理",
+    "imageAnalysis": "影像分析功能查询",
+    "dataMonitor": "数据监测功能查询",
+    "inspectionTasks": "巡检任务",
+    "inspectionTasksEdit": "编辑巡检任务",
+    "inspectionTasksAdd": "新增巡检任务",
+    "imagingTask": "影像任务",
+    "imagingTaskAdd": "新增影像任务",
+    "imagingTaskEdit": "編輯影像任務",
+    "dataTask": "数据任务",
+    "dataTaskAdd": "新增数据任务",
+    "dataTaskDetail": "编辑数据任务",
+    "specialMission": "特别任务",
+    "specialMissionDrone": "无人机智慧救援",
+    "specialMissionUSV": "水面无人载具海面清洁及水深量测",
+    "specialMissionRobot": "自主移动机器人码头运输",
+    "specialMissionIOT": "物聯網油污監控服務",
+    "taskManage": "任务管理",
+    "taskMonitoring": "任务监控",
+    "serviceManage": "服务管理",
+    "companyInfo": "企业信息",
+    "groupMaintain": "群组维护",
+    "accountManage": "帐号维护",
+    "companyMaintainAdd": "添加公司/个人",
+    "vehicleMaintainAdd": "新增载具",
+    "inspectionTasksView": "查看巡检任务",
+    "dataTaskView": "查看数据任务",
+    "imagingTaskView": "查看影像任務",
+    "missionRecords": "任务记录",
+    "missionRecordsDetail": "任务记录",
+    "inspectionTasksMapView": "巡检任务地图资料设置",
+    "payloadManage": " 酬载维护",
+    "payloadManageAdd": "新增酬载",
+    "payloadManageEdit": "编辑酬载",
+    "dataTaskResult": "数据任务结果",
+    "imagingResultView": "影像任务结果",
+    "inspectionRecords": "巡检记录",
+    "inspectionRecordsView": "巡检记录检视",
+    "inspectionTasksList": "巡检任务列表"
+  },
+  "systemNotification": {
+    "websocketFailed": "系统繁忙，请稍后再试（代码：01）",
+    "failedMenu": "系统繁忙，请稍后再试（代码：02）",
+    "routingError": "系统繁忙，请稍后再试（代码：03）",
+    "loginFailed": "登录失败",
+    "accountNoMenu": "系统繁忙，请稍后再试（代码：04）",
+    "requestError": "系统繁忙，请稍后再试",
+    "error401": "登录超时",
+    "error403": "无权限访问",
+    "error404": "系统繁忙，请稍后再试",
+    "error500": "系统繁忙，请稍后再试",
+    "loginAgain": "请重新登录！",
+    "loggedOutTryAgain": "当前用户已被登出或无权限访问此资源，请尝试重新登录后再操作。",
+    "unknownError": "系统繁忙，请稍后再试",
+    "noRespones": "系统繁忙，请稍后再试",
+    "systemError": "系统繁忙，请稍后再试（代码：09）",
+    "changeCompanyError": "系统繁忙，请稍后再试（代码：10）",
+    "resetCompanyError": "系统繁忙，请稍后再试（代码：11）",
+    "storageSpaceInsufficient": "存储空间即将用尽",
+    "storageSpaceAbnormal": "存储空间使用量异常",
+    "gpuUsageInsufficient": "GPU 资源即将用尽",
+    "gpuUsageAbnormal": "GPU 资源使用量异常",
+    "imminentExpireLicense": "授权使用期限即将到期",
+    "licenseExpired": "公司授权使用期间已到期或无可登录的公司"
+  },
+  "changeCompanyGroup": {
+    "corporateManagement": "公司管理",
+    "company": "公司",
+    "group": "群組",
+    "licenseExpired": "授权过期",
+    "inspectionService": "巡检服务",
+    "loginUser": "登录账号",
+    "messages": {
+      "confirmMessage": "确定退出登录？",
+      "changeFail": "切换公司/群组时发生问题！"
+    }
+  },
+  "map": {
+    "planningScope": "规划范围",
+    "operationInstructions": "操作说明",
+    "longitude": "经度",
+    "latitude": "纬度",
+    "altitude": "高度",
+    "meter": "米",
+    "rangeHeight": "范围高度",
+    "placeholder": {
+      "height": "请输入范围高度"
+    },
+    "button": {
+      "saveScope": "储存范围点位",
+      "complete": "完成设定",
+      "loadTrajectory": "载入轨迹设置",
+      "reset": "重置",
+      "skip": "略过",
+      "continueEditing": "继续编辑",
+      "discardChanges": "不保留"
+    },
+    "OperationInstructions": {
+      "leftClick": "左键",
+      "leftClickDESC": "点击要移动的 Point & 确认 Point 的新位置",
+      "rightClick": "右键",
+      "rightClickDESC": "右键可让要移动的 Point 恢复到原位",
+      "drag": "拖曳",
+      "dragDESC": "移动点位"
+    },
+    "missionPath": {
+      "setPath": "设定路径",
+      "fromTrajectory": "从轨迹设置",
+      "trajectorySettings": "轨迹设置",
+      "pathType": "路线类型",
+      "areascan": "扫描路线",
+      "expandingsquare": "渐扩方形路线",
+      "vertical": "立面扫描路线",
+      "circle": "环绕路线",
+      "waypoints": "任意路线",
+      "circular3d": "立体环绕路线",
+      "timeline": "复飞复拍",
+      "setCenterTip": "设定中心点",
+      "flightLog": "轨迹路线",
+      "checkpoints": "检查点照片",
+      "setStartEndTip": "设定起点与终点",
+      "setPathTip": "设定路线点位",
+      "height": "飞行高度 (M)",
+      "sideOverlap": "路线重叠率",
+      "intersection": "路线交叉",
+      "speed": "无人机速度",
+      "delayTime": "点位停留时间",
+      "camAngle": "镜头角度",
+      "fov": "镜头视角",
+      "searchRadius": "搜索半径 (M)",
+      "maxHeight": "最大高度",
+      "minHeight": "最小高度",
+      "sideDistance": "扫描间隔距离 (M)",
+      "pointCount": "生成点位数量",
+      "objectHeight": "物件高度 (M)",
+      "sideOverlapRate": "侧向重叠率",
+      "exceeds": "超出",
+      "radius": "半径 (M)",
+      "on": "开",
+      "off": "关",
+      "range": "范围",
+      "cameraAngle": "镜头视角",
+      "change": "变更",
+      "generate": "产生",
+      "route": "路线",
+      "stereoscopicRoute": "立体环绕路线",
+      "rotationalPath": "旋转路径",
+      "fromFile": "从文件上传",
+      "fromRecords": "从记录选择",
+      "placeholder": {
+        "selPathType": "下拉选择路线类型",
+        "setCenter": "点击地图设定中心点",
+        "routeOverLapRate": "{rangeStr} 数值",
+        "setStart": "点击地图设定起点",
+        "setEnd": "点击地图设定终点",
+        "rotationalPath": "-360 ~ 360 数值",
+        "fromFile": "点此选择任务轨迹文件位置或直接拖曳至选区",
+        "fromPhoto": "点此选择复拍照片位置或直接拖曳至选区"
+      },
+      "messages": {
+        "pathNoSet": "未设定任务路线，请先在地图上点击设定",
+        "missionRouteLess": "未设定任务路线或点位少于 2 个",
+        "eraserRouteNotSet": "未设定渐扩路线中心点",
+        "pointNotSet": "未设起点或终点点位",
+        "centerNotSet": "未设定环绕路线中心点",
+        "changeNFZ": "禁航区已变更，请回路线规划步骤重新规划路线",
+        "changeNFZTitle": "提醒",
+        "valueGreaterMinimum": "数值请大于最小高度",
+        "valueLessMaximum": "数值请小于最大高度",
+        "exceedsRotateRange": "超过 -360~360 范围",
+        "generatePathError": "生成路线错误，请洽管理员",
+        "closeMapMessage": "如有尚未储存内容，关闭将会清除现有编辑",
+        "removedImageSuccessfully": "图片清除成功"
+      }
+    },
+    "gimbalCamera": {
+      "messages": {
+        "gimbalCamera": "云台 {action}",
+        "camera": "相机 {action}"
+      }
+    },
+    "uvOrder": {
+      "messages": {
+        "endMissionTitle": "确定要结束任务",
+        "endMissionContent": "将直接返回基地待机",
+        "missionContinuation": "任务继续执行",
+        "controlUV": "执行{action}指令",
+        "implementUVOrderTitle": "确定执行动作",
+        "implementUVOrderContent1": "将执行",
+        "implementUVOrderContent2": "指令",
+        "implementUVOrderCancel": "取消动作",
+        "endMissionSuccess": "成功结束任务"
+      },
+      "button": {
+        "throw": "投掷",
+        "rtl": "返航",
+        "auto": "继续",
+        "land": "降落",
+        "rotate": "旋转",
+        "loiter": "暂停",
+        "playsound": "广播",
+        "goto": "前往",
+        "basicControls": "基本控制",
+        "advancedControls": "进阶控制",
+        "endTask": "结束任务",
+        "continueMission": "继续任务"
+      }
+    },
+    "droneInfo": {
+      "batteryLevel": "电量",
+      "voltage": "电压",
+      "connectionCount": "连线数",
+      "altitude": "高度",
+      "speed": "速度",
+      "longitude": "经度",
+      "latitude": "纬度"
+    }
+  },
+  "weather": {
+    "title": "即时气象信息 | 今日气象",
+    "noData": "无气象资讯",
+    "overview": "天气概况",
+    "temp": "温度",
+    "rainfall": "降雨机率",
+    "windSpeed": "风速",
+    "windDire": "风向",
+    "location": "地点",
+    "historicalWeather": "历史气象信息",
+    "realTimeWeather": "实时气象信息"
+  },
+  "vehicleStatus": {
+    "standby": "待机",
+    "run": "任务中",
+    "abnormal": "异常",
+    "offline": "离线",
+    "return": "返航"
+  },
+  "uvType": {
+    "all": "全部",
+    "uav": "无人机",
+    "usv": "无人船",
+    "amr": "机器人",
+    "other": "其他"
+  },
+  "taskStatus": {
+    "running": "执行中",
+    "completed": "已执行",
+    "waiting": "未执行",
+    "failed": "执行失败",
+    "cancel": "已取消"
+  },
+  "caseStatus": {
+    "approve": "核准",
+    "reject": "退件",
+    "paending": "待审核",
+    "canceled": "已取消",
+    "executed": "已执行",
+    "cancel": "取消"
+  },
+  "enableStatus": {
+    "enabled": "启用",
+    "disable": "停用",
+    "all": "全部",
+    "on": "开",
+    "off": "关"
+  },
+  "weekList": {
+    "Mon": "周一",
+    "Tue": "周二",
+    "Wed": "周三",
+    "Thu": "周四",
+    "Fri": "周五",
+    "Sat": "周六",
+    "Sun": "周日"
+  },
+  "files": {
+    "dropFilesUploadMsg": "拖曳或点击选择您想上传的档案…",
+    "downloadSuccess": "档案下载完成 | 下载档案成功！",
+    "downloadFail": "档案下载失败",
+    "remove": "移除档案",
+    "download": "下载",
+    "deleteConfirm": "确定移除档案？",
+    "deleteSuccess": "档案删除成功！",
+    "files": "档案",
+    "SuccessfullyUploaded": "成功上传",
+    "downloading": "下载中",
+    "done": "完成"
+  },
+  "button": {
+    "confirm": "确定",
+    "loginAgain": "重新登录",
+    "confirmChange": "确定修改",
+    "confirmAdd": "确认新增",
+    "cancel": "取消",
+    "addTask": "新增任务",
+    "addGroup": "创建群组",
+    "addAccount": "创建帐号",
+    "addBrand": "新增厂牌",
+    "addVehicle": "新增载具",
+    "addPayload": "新增酬载",
+    "addCompany": "新增公司/个人",
+    "addImage": "新增影像",
+    "addData": "新增数据",
+    "addImageAnalysis": "新增影像分析",
+    "addDataMonitor": "新增数据监测",
+    "execute": "执行",
+    "result": "结果",
+    "edit": "编辑",
+    "delete": "删除",
+    "remove": "移除",
+    "view": "查看",
+    "returnList": "返回列表",
+    "executeMission": "执行任务",
+    "endMission": "结束任务",
+    "expandAll": "全部展开",
+    "collapseAll": "关闭全部",
+    "More": "更多",
+    "signOut": "退出登录",
+    "uploadMission": "上载任务",
+    "save": "储存",
+    "generatePath": "生成路径",
+    "continueMission": "继续任务",
+    "downloadAll": "全部下载",
+    "deleteAll": "全部删除",
+    "download": "下载",
+    "mapView": "地图检视",
+    "complete": "完成",
+    "search": "搜索",
+    "next": "下一步",
+    "previous": "上一步",
+    "finish": "完成"
+  },
+  "unit": {
+    "timeSec": "秒",
+    "camAngle": "度",
+    "distanceMeter": "公尺",
+    "speed": "公里/时",
+    "days": "天",
+    "headcount": "人",
+    "points": "点",
+    "accounts": "个",
+    "groups": "组",
+    "devices": "台",
+    "cases": "件",
+    "inspection": "次",
+    "mileage": "公里",
+    "hours": "小时",
+    "events": "件"
+  },
+  "inspectionTasks": {
+    "inspectionDate": "巡检日期",
+    "applyNo": "申请单号",
+    "missionName": "任务名称",
+    "uvType": "载具型式",
+    "uvID": "载具编号",
+    "operateMode": "任务模式",
+    "startEndDate": "起讫日期",
+    "form": {
+      "applyNo": "单号",
+      "missionName": "任务名称",
+      "uvType": "载具型式",
+      "operateMode": "任务模式",
+      "endOfAction": "任务结束动作",
+      "uvID": "载具编号",
+      "brandName": "载具厂牌",
+      "modelName": "载具型号",
+      "operator": "任务执行者",
+      "payloadID": "酬载",
+      "scheduleDate": "巡检日期",
+      "scheduleTime": "巡检时间",
+      "captureMode": "巡检拍照模式",
+      "imageTask": "影像任务设置",
+      "dataTask": "数据任务设置"
+    },
+    "placeholder": {
+      "missionName": "请输入任务名称",
+      "uvType": "请输入载具型式 | 下拉选择载具形式",
+      "uvID": "下拉选择载具编号 | 请输入载具编号",
+      "operator": "下拉选择任务执行者",
+      "payloadID": "下拉选择酬载",
+      "scheduleDate": "请选择日期 | 请选择每周循环日",
+      "startTime": "开始时间",
+      "endTime": "结束时间",
+      "dueDate": "请选择截止日期",
+      "applyNo": "请输入申请单号",
+      "captureMode": "请下拉选择拍照模式",
+      "captureParam": "请输入拍照参数",
+      "endOfAction": "下拉选择任务结束动作"
+    },
+    "formRules": {
+      "missionName": "请输入任务名称",
+      "uvType": "请输入载具型式",
+      "uvID": "下拉选择载具编号",
+      "operator": "下拉选择任务执行者",
+      "payloadID": "下拉选择酬载",
+      "captureMode": "请下拉选择拍照模式",
+      "captureParam": "请输输入拍照参数",
+      "taskTimeRange": "请选择开始/结束时间",
+      "dueDate": "请选择截止日期",
+      "scheduleDate": "请选择日期 | 请选择每周循环日"
+    },
+    "captureMode": {
+      "off": "关闭",
+      "waypointcap": "定点",
+      "intervalcap": "定时（秒）",
+      "distancecap": "定距（公尺）"
+    },
+    "vehicleOperaType": {
+      "manual": "手动",
+      "automatic": "自动"
+    },
+    "dateRange": {
+      "recurring": "周期",
+      "scheduling": "排程"
+    },
+    "messages": {
+      "payloadChangeTitle": "酬载信息已变更",
+      "payloadChangeDetail": "需重新设定地图资料！",
+      "selectUVType": "请先选择载具型式",
+      "selectUVID": "请先选择载具编号",
+      "selectPayload": "请先选择酬载",
+      "addSuccess": "新增巡检任务成功！",
+      "addFail": "新增巡检任务失败！",
+      "updateSuccess": "更新巡检任务信息成功！",
+      "updateFail": "更新巡检任务信息失败！",
+      "uploadSuccess": "发送上传任务指令成功！",
+      "uploadFail": "发送上传任务指令失败！",
+      "sendExecSuccess": "发送执行指令成功！",
+      "sendExecFail": "发送执行指令失败！",
+      "deleteConfirm": "确定删除任务？",
+      "deleteSuccess": "删除巡检任务资料成功！"
+    },
+    "mapSetting": {
+      "mapDataSetting": "地图数据设置",
+      "noSet": "未设定",
+      "missionPathNoSet": "路线未设定",
+      "missionScope": "任务范围",
+      "customNoFlyZone": "自定义禁航区",
+      "flightPathType": "路径类型",
+      "planningScope": "规划范围",
+      "planningRoute": "路线规划",
+      "searchAddress": "请输入地址",
+      "taskScopeTip": "先填写高度，再滚动并点击地图规划任务范围",
+      "nfzTip": "先填写高度，点击自订禁航区",
+      "pathTypeTip": "选择路线类型",
+      "operateStepTip": "还在画范围中，请先保存再执行下个步骤",
+      "scopeNotSetTip": "巡检范围未设置，请先设置巡检范围",
+      "coordinates": "坐标",
+      "height": "飞行高度 (M)",
+      "sideOverlap": "路线重叠率",
+      "fov": "镜头视角",
+      "intersection": "路线交叉",
+      "speed": "无人机速度",
+      "delayTime": "点位停留时间",
+      "camAngle": "镜头角度",
+      "centerPoint": "中心点坐标",
+      "searchRadius": "搜索半径 (M)",
+      "scanPointS": "扫描起始坐标",
+      "scanPointE": "扫描结束坐标",
+      "maxHeight": "最大高度 (M)",
+      "minHeight": "最小高度 (M)",
+      "sideDistance": "扫描间隔距离 (M)",
+      "circlePointS": "圆第一点坐标",
+      "circlePointE": "圆第二点坐标",
+      "pointCount": "生成点位数量",
+      "objectHeight": "物件高度 (M)",
+      "maxAltitude": "最高高度",
+      "minAltitude": "最低高度",
+      "surroundingPoints": "环绕点位数量",
+      "intersectionResult": "是 | 否",
+      "timelineType": "复飞路线",
+      "waypoints": "点位数量",
+      "checkpoints": "复拍数量"
+    }
+  },
+  "imageTask": {
+    "missionTime": "任务时间",
+    "taskStatus": "任务状态",
+    "imageResource": "影像来源",
+    "taskApplyNo": "任务单号",
+    "missionName": "任务名称",
+    "progress": "任务进度",
+    "missionType": "任务类型",
+    "form": {
+      "missionName": "任务名称",
+      "imageTaskSetting": "影像任务设置",
+      "imageSource": "影像来源",
+      "uploadFile": "从文件上传",
+      "fromInspecitonRecords": "从巡检记录选择",
+      "inspectionDate": "巡检日期",
+      "uvID": "载具编号",
+      "uvName": "载具名称",
+      "startEndDate": "起讫日期"
+    },
+    "formRules": {
+      "missionName": "任务名称为必填！",
+      "imageTaskSetting": "影像任务设置为必填！"
+    },
+    "placeholder": {
+      "taskStatus": "请选擇任务状态",
+      "imageResource": "请选擇影像来源",
+      "missionName": "请输入任务名称",
+      "uvID": "请输入载具编号",
+      "missionType": "请选择任务类型"
+    },
+    "messages": {
+      "createMediaSuccess": "建立媒体空间成功",
+      "confirmDeleteAll": "确定删除全部媒体文件？",
+      "deleteMediaSuccess": "媒体文件删除成功！",
+      "addTaskSuccess": "新增影像任务成功！",
+      "downloadAllSuccess": "下载全部文件成功！",
+      "execTaskSuccess": "执行影像任务成功！",
+      "execTaskFail": "执行影像任务失败！",
+      "editTaskSuccess": "编辑影像任务成功！",
+      "deleteMissionSuccess": "删除/取消影像任务数据成功！",
+      "deleteCancelMission": "确定删除/取消任务？"
+    }
+  },
+  "dataTask": {
+    "missionTime": "任务时间",
+    "missionName": "任务名称",
+    "taskStatus": "任务状态",
+    "dataResource": "数据来源",
+    "taskApplyNo": "任务单号",
+    "progress": "任务进度",
+    "missionType": "任务类型",
+    "form": {
+      "missionName": "任务名称",
+      "threshold": "阈值",
+      "dataTaskSettings": "数据任务设置",
+      "dataResource": "数据来源",
+      "uploadFile": "从文件上传",
+      "fromInspecitonRecords": "从巡检记录选择",
+      "inspectionDate": "巡检日期",
+      "uvID": "载具编号",
+      "uvName": "载具名称",
+      "startEndDate": "起讫日期"
+    },
+    "formRules": {
+      "missionName": "任务名称为必填！",
+      "dataTaskSettings": "数据任务设置为必填！"
+    },
+    "placeholder": {
+      "taskStatus": "请选擇任务状态",
+      "imageResource": "请选擇影像来源",
+      "missionName": "请输入任务名称",
+      "threshold": "请输入阈值",
+      "uvID": "请输入载具编号",
+      "missionType": "请选择任务类型"
+    },
+    "messages": {
+      "createMediaSuccess": "建立媒体空间成功",
+      "confirmDeleteAll": "确定删除全部媒体文件？",
+      "deleteMediaSuccess": "媒体文件删除成功！",
+      "addTaskSuccess": "新增数据任务成功！",
+      "downloadAllSuccess": "下载全部文件成功！",
+      "execTaskSuccess": "执行数据任务成功！",
+      "execTaskFail": "执行数据任务失败！",
+      "editTaskSuccess": "编辑数据任务成功！",
+      "deleteMissionSuccess": "删除/取消数据任务数据成功！",
+      "deleteCancelMission": "确定删除/取消任务？"
+    }
+  },
+  "inspectionTasksRecords": {
+    "missionTitle": "任务资讯",
+    "missionName": "任务名称",
+    "inspectionDate": "巡检日期",
+    "uvID": "载具编号",
+    "vehicleName": "载具名称",
+    "startEndDate": "起讫日期",
+    "duration": "总时数(秒)",
+    "distance": "总距离(公尺)",
+    "event": "事件",
+    "quantity": "处理数量",
+    "time": "处理时间(秒)",
+    "summary": "摘要资讯",
+    "advanceFilter": "高级搜索",
+    "placeholder": {
+      "missionName": "请输入任务名称",
+      "uvID": "请输入载具编号",
+      "remark": "请输入备注说明"
+    },
+    "messages": {
+      "noEventRecord": "无巡检记录事件",
+      "noEventImg": "无事件图片",
+      "confirmDelete": "确定删除任务记录？",
+      "deleteSuccess": "删除任务记录成功！",
+      "updateRemarkSuccess": "更新事件摘要成功！"
+    }
+  },
+  "companyMaintain": {
+    "guiNumber": "公司统编/身份证字号",
+    "companyName": "公司/个人名称",
+    "expireDate": "授权使用期限",
+    "form": {
+      "guiNumber": "公司统编/身份证字号",
+      "companyName": "公司/个人名称",
+      "compAdminEmail": "指定管理帐号",
+      "expireDate": "授权使用期限",
+      "storageSpace": "设置可用空间",
+      "authorizeAccountNum": "可建立帐号数量",
+      "authorizeVehicleNum": "可建立载具数量",
+      "authorizeGroupNum": "可建立群组数量",
+      "authorizeGPU": "设置 GPU 可用量",
+      "setPermissions": "设置功能权限"
+    },
+    "formRules": {
+      "guiNumber": "公司统一编号/身分证字号为必填项！",
+      "companyName": "公司/个人名称为必填项！",
+      "compAdminEmail": "管理员帐号为必填项！",
+      "emailFormat": "必须为电子邮件格式！",
+      "expireDate": "授权使用期限为必填项！",
+      "storageSpace": "请输入可用空间大小！必须大于等于100！",
+      "authorizeAccountNum": "请输入可建立帐号数量！",
+      "authorizeVehicleNum": "请输入可建立载具数量！",
+      "authorizeGroupNum": "请输入可建立群组数量！",
+      "authorizeGPU": "请输入 GPU 可用量！必须大于等于 360000！",
+      "setPermissions": "请至少选择一个功能权限！"
+    },
+    "placeholder": {
+      "guiNumber": "请输入统编或身份证号码",
+      "companyName": "请输入公司/个人名称",
+      "compAdminEmail": "設定管理員帐号",
+      "compAdminEmailDDL": "下拉选择使用者帐号",
+      "expireDate": "设置到期日",
+      "resetManageAccount": "重置管理帐户",
+      "selectAuthorization": "勾选授权"
+    },
+    "messages": {
+      "noUserData": "無可用的使用者帐号",
+      "createSuccessfully": "成功新增企业信息！",
+      "failCreate": "新增企业信息失败！",
+      "updateSuccessfully": "成功修改企业信息！",
+      "failUpdate": "修改企业信息失败！"
+    }
+  },
+  "companyInfo": {
+    "numberID": "公司统编/身份证字号",
+    "name": "公司/个人名称",
+    "authorizationUsagePeriod": "授权使用期限",
+    "remaining": "剩余",
+    "storageSpace": "可用储存空间",
+    "canAccountNumber": "可建帐号数量",
+    "createdAccount": "已建帐号",
+    "canVehiclesNumber": "可建载具数量",
+    "createdVehicles": "已建载具",
+    "canGroupsNumber": "可建群组数量",
+    "createdGroups": "已建群组",
+    "authorizeGPU": "GPU 使用量",
+    "used": "已使用",
+    "adminPermissions": "系统管理员权限",
+    "userPermissions": "一般使用者权限",
+    "authItem": "授权项目"
+  },
+  "brandModelMaintain": {
+    "model": "型号",
+    "vehicleType": "载具型式",
+    "form": {
+      "brandInfoTitle": "厂牌信息",
+      "logo": "厂牌商标",
+      "brandName": "厂牌名称",
+      "vehicleModelTitle": "载具型号",
+      "modelImage": "型号图片",
+      "vehicleName": "型号名称",
+      "vehicleType": "载具型式",
+      "optionInfo": {
+        "title": "选项信息",
+        "navigation": "导航方式",
+        "power": "使用动力",
+        "remoteControl": "遥控方式/频率",
+        "height": "载具高度",
+        "length": "载具长度",
+        "width": "载具宽度",
+        "MTOW": "最大起飞重量",
+        "maxSpeed": "最大速度"
+      },
+      "gimbalCameraCtrl": {
+        "title": "云台相机控制",
+        "gimbPitch": "俯仰调整",
+        "gimbYaw": "水平旋转",
+        "gimbHome": "云台回正",
+        "capture": "拍照功能",
+        "video": "录影功能",
+        "zoom": "缩放镜头",
+        "zoomReset": "缩放重置"
+      },
+      "basicCtrl": {
+        "title": "基本控制",
+        "rtl": "返航",
+        "land": "降落",
+        "rotate": "旋转",
+        "loiter": "暂停"
+      },
+      "advancedCtrl": {
+        "title": "进阶控制",
+        "throw": "投掷",
+        "playsound": "广播"
+      }
+    },
+    "placeholder": {
+      "brandName": "请输入厂牌名称",
+      "vehicleName": "请输入型号名称",
+      "vehicleType": "下拉选择载具类型",
+      "navigation": "选择导航方式",
+      "power": "选择使用动力",
+      "remoteControl": "选择遥控方式/频率",
+      "brandLogoRecommend": "建议单色去背 尺寸{width} x {height} (PNG/JPG)",
+      "modelImgRecommend": "建议尺寸{width} x {height} (PNG/JPG)",
+      "moreOptionalInformation": "更多选填资讯"
+    },
+    "navigationOptions": {
+      "satellite": "卫星系统",
+      "inertialNavigation": "惯性导航系统",
+      "vision": "视觉系统",
+      "satelliteAndVision": "卫星/视觉系统",
+      "satelliteAndinertialNavigation": "卫星/惯性导航系统",
+      "mixAll": "卫星/视觉系统/惯性导航系统",
+      "none": "无"
+    },
+    "powerOptions": {
+      "fuel": "燃油",
+      "woodSpirit": "木精",
+      "battery": "电池",
+      "hybrid": "混合动力",
+      "none": "无动力"
+    },
+    "remoteControlOptions": {
+      "wifi": "WiFi",
+      "mobileCommunication": "3G/4G/5G",
+      "analog": "类比",
+      "infrared": "红外线",
+      "bluetooth": "蓝牙"
+    },
+    "messages": {
+      "addBrandSuccess": "新增品牌数据成功！",
+      "editBrandSuccess": "编辑品牌数据成功！",
+      "editBrandFail": "编辑品牌数据失败！",
+      "confirmDelMsgTitle": "删除厂牌",
+      "deleteBrandSuccess": "删除厂牌资料成功！",
+      "addModelSuccess": "新增型号数据成功！",
+      "inputNotify": "请输入新增载具的型号/类型",
+      "editModelSuccess": "编辑型号数据成功！",
+      "editModelFail": "编辑型号数据失败！",
+      "confirmModelDelete": "确定删除型号？",
+      "deleteModelSuccess": "删除型号数据成功！"
+    }
+  },
+  "payloadManage": {
+    "payloadName": "酬载名称",
+    "form": {
+      "payloadName": "酬载名称",
+      "maxFocalLength": "最大焦段",
+      "minFocalLength": "最小焦段",
+      "maxAperture": "最大光圈",
+      "minAperture": "最小光圈",
+      "maxFOV": "最大可视角",
+      "minFOV": "可视角",
+      "resolutionLength": "解析度长",
+      "resolutionWidth": "解析度宽"
+    },
+    "rules": {
+      "payloadName": "酬载名称为必填！"
+    },
+    "placeholder": {
+      "payloadName": "请输入酬载名称",
+      "maxFocalLength": "请输入最大焦段",
+      "minFocalLength": "请输入最小焦段",
+      "maxAperture": "请输入最大光圈",
+      "minAperture": "请输入最小光圈",
+      "maxFOV": "请输入最大可视角",
+      "minFOV": "请输入可视角",
+      "resolutionLength": "请输入解析度长",
+      "resolutionWidth": "请输入解析度宽"
+    },
+    "messages": {
+      "addPayloadSuccess": "新增酬载资料成功！",
+      "editPayloadSuccess": "编辑酬载资料成功！",
+      "deletePayloadSuccess": "删除酬载资料成功！"
+    }
+  },
+  "vehicleMaintain": {
+    "vehicleNumber": "载具编号",
+    "vehicleType": "载具型式",
+    "status": "状态",
+    "missionName": "任务名称",
+    "vehicleName": "载具名称",
+    "owner": "持有人",
+    "operator": "任务执行者",
+    "odometer": "累积里程数(公里)",
+    "totalFlightTime": "累积时数(小时)",
+    "form": {
+      "vehicleType": "载具型式",
+      "vehicleName": "载具名称",
+      "serialNumber": "载具序号",
+      "vehicleModel": "载具型号",
+      "defaultPayload": "默认酬载",
+      "vehicleNumber": "载具编号",
+      "vehicleIP": "载具IP",
+      "vehicleBrand": "载具厂牌",
+      "owner": "持有人",
+      "rtsp": "RTSP串流网址",
+      "rtmp": "RTMP串流网址",
+      "description": "说明",
+      "odometer": "累积里程数(公里)",
+      "totalFlightTime": "累积时数(小时)"
+    },
+    "placeholder": {
+      "vehicleType": "下拉选择载具形式",
+      "status": "下拉选择载具状态",
+      "vehicleName": "请填写载具名称",
+      "serialNumber": "请填写载具序号",
+      "vehicleModel": "下拉选择载具型号",
+      "defaultPayload": "下拉选择預設酬載",
+      "vehicleNumber": "请填写载具编号",
+      "vehicleIP": "请填写载具IP",
+      "vehicleBrand": "下拉选择载具厂牌",
+      "owner": "下拉选择持有人",
+      "uvID": "请输入载具编号"
+    },
+    "messages": {
+      "addSuccess": "新增载具资讯成功！",
+      "addFail": "新增载具资讯失败！",
+      "updateSuccess": "更新载具资讯成功！",
+      "updateFail": "更新载具资讯失败！",
+      "deleteVehicle": "确定删除载具？",
+      "deleteVehicleSuccess": "删除載具資訊成功!",
+      "missionIncorrect": "此载具执行任务资讯有误"
+    },
+    "button": {
+      "allList": "全部列表",
+      "mapOverview": "地图总览"
+    }
+  },
+  "groupMaintain": {
+    "createdGroup": "已建立群组",
+    "defaultGroup": "系统预设群组",
+    "lineBinding": "LINE讯息绑定",
+    "memberNumber": "成员数",
+    "successfully": "成功绑定 | 已绑定",
+    "notYetBound": "尚未绑定",
+    "form": {
+      "groupName": "群组",
+      "lineBinding": "LINE绑定",
+      "goBinding": "进入绑定",
+      "unbind": "解除绑定"
+    },
+    "placeholder": {
+      "groupName": "请输入群组名称"
+    },
+    "formRules": {
+      "groupName": "请输入群组名称"
+    },
+    "messages": {
+      "overMaximum": "可创建群组数量已达上限！",
+      "createSuccessfully": "新增群组成功！",
+      "failCreate": "创建群组失败！",
+      "updateSuccessfully": "更新群组信息成功！",
+      "failUpdate": "更新群组信息遇到问题，更新群组信息失败！",
+      "confirmDelete": "确定删除群组？",
+      "failDelete": "删除群组遇到问题，删除群组失败！ | 删除群组失败！",
+      "checkDeleteMsg": "无法删除目前所在的群组！",
+      "deleteSuccessfully": "删除群组成功！",
+      "confirmUnbind": "确定解除绑定？",
+      "unbindSuccessfully": "解除绑定成功！",
+      "failUnbind": "解除绑定失败！"
+    }
+  },
+  "accountMaintain": {
+    "authorizationQuantity": "帐号授权数量",
+    "includeCompanyAdmin": "含公司管理员",
+    "enterpriseAdministrator": "企业管理者",
+    "systemAdministrator": "系统管理员",
+    "EnterpriseUser": "企业用户",
+    "form": {
+      "role": "角色",
+      "accountName": "账号",
+      "group": "群组",
+      "description": "说明"
+    },
+    "placeholder": {
+      "role": "下拉选择角色",
+      "accountName": "请输入账号名称",
+      "group": "下拉选择群組"
+    },
+    "formRules": {
+      "role": "角色为必选！",
+      "accountName": "帐号为必填项！| 必须为电子邮件格式！",
+      "group": "请至少选择一个群组！"
+    },
+    "messages": {
+      "overMaximum": "可建立账号数量已达上限！",
+      "createSuccessfully": "帐号添加成功！",
+      "failAdd": "添加帐号失败！",
+      "updateSuccessfully": "授权账号信息已成功更新！",
+      "failUpdate": "更新授权帐号信息发生问题，更新授权帐号信息失败！",
+      "minimumLimit": "帐号授权数量不得低于1！",
+      "confirmDelete": "确认删除帐号？",
+      "deleteSuccessfully": "授权帐号删除成功！",
+      "failDelete": "删除授权帐号发生错误，删除授权帐号失败！",
+      "deletionProhibited": "禁止移除系统预设群组！",
+      "unableRemoveCurrent": "无法移除目前所在群组！"
+    }
+  },
+  "intelligentFunctionImage": {
+    "imgAnalysisID": "影像分析功能编号",
+    "imgAnalysisName": "影像分析功能名称",
+    "status": "状态",
+    "placeholder": {
+      "imgAnalysisID": "请输入影像分析功能编号",
+      "imgAnalysisName": "请输入影像分析名称",
+      "status": "请选择功能状态"
+    },
+    "messages": {
+      "addSuccess": "新增影像分析成功！",
+      "updateSuccess": "编辑影像分析成功！",
+      "invalidFormat": "请输入正确格式！"
+    }
+  },
+  "intelligentFunctionData": {
+    "dataMonitoringID": "数据监测功能编号",
+    "dataMonitoringName": "数据监测功能名称",
+    "status": "状态",
+    "placeholder": {
+      "dataMonitoringID": "请输入数据监测功能编号",
+      "dataMonitoringName": "请输入数据监测功能名称",
+      "status": "请选择功能状态"
+    },
+    "messages": {
+      "addSuccess": "新增数据监测成功！",
+      "updateSuccess": "编辑数据监测成功！",
+      "invalidFormat": "请输入正确格式！"
+    }
+  },
+  "dashboard": {
+    "customerStatus": {
+      "title": "客户状态",
+      "inUse": "使用中",
+      "willExpire": "将到期",
+      "expired": "已到期",
+      "total": "总计"
+    },
+    "supportedDevices": {
+      "title": "支援载具",
+      "totalBrand": "厂牌数量",
+      "totalModel": "型号数量"
+    },
+    "resourceStatistics": {
+      "title": "资源统计",
+      "storage": "存储空间",
+      "gpu": "GPU",
+      "account": "账号",
+      "group": "群組",
+      "uv": "载具",
+      "aboutTotal": "總共"
+    },
+    "vehicleStatus": {
+      "title": "载具状态",
+      "total": "总数"
+    },
+    "inspectionStatistics": {
+      "dateRangeDDL": {
+        "thisMonth": "本月",
+        "pastThreeMonth": "近三月",
+        "thisYear": "今年",
+        "pastYear": "近一年"
+      },
+      "title": "巡检统计",
+      "totalMission": "创建任务数量",
+      "totalInspection": "累计巡检次数",
+      "odometer": "总累计里程",
+      "totalTime": "总累计时数",
+      "totalEvent": "累计事件"
+    },
+    "systemMessage": {
+      "title": "系統信息",
+      "noData": "目前无系统信息"
+    }
+  },
+  "common": {
+    "live": "即时",
+    "media": "档案",
+    "record": "日志"
+  },
+  "eventDialog": {
+    "picture": "巡检事件照片",
+    "time": "时间",
+    "longitude": "经度",
+    "latitude": "纬度"
+  },
+  "tip": {
+    "delSuccess": "删除任务成功",
+    "resetPerspective": "重置视角",
+    "enlarge": "放大",
+    "zoomOut": "缩小"
+  },
+  "streaming": "串流",
+  "management": "管理",
+  "explanation": "说明",
+  "remarks": "备注",
+  "enterKeywords": "请输入关键字",
+  "noData": "暂无数据",
+  "hide": "隐藏",
+  "multiSelect": "可复选",
+  "optional": "非必填 | 选填",
+  "list": "列表",
+  "select": "请选择",
+  "options": "选项",
+  "set": "已设置",
+  "notSet": "尚未设置",
+  "none": "无",
+  "noMoreData": "已无资料"
+}

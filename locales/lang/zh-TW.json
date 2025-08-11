@@ -1,0 +1,1024 @@
+{
+    "systemNavMenu": {
+        "login": "登入",
+        "dashboard": "系統首頁",
+        "companyManage": "企業管理",
+        "companyMaintain": "企業維護",
+        "companyMaintainEdit": "編輯公司/個人",
+        "vehicleManage": "載具管理",
+        "vehicleModelMaintain": "廠牌型號維護",
+        "vehicleMaintain": "載具列表",
+        "vehicleMaintainEdit": "編輯載具",
+        "vehicleMonitorDetail": "載具監看",
+        "intelligentFunctionManage": "智慧功能管理",
+        "imageAnalysis": "影像分析功能查詢",
+        "dataMonitor": "數據監測功能查詢",
+        "inspectionTasks": "巡檢任務",
+        "inspectionTasksEdit": "編輯巡檢任務",
+        "inspectionTasksAdd": "新增巡檢任務",
+        "imagingTask": "影像任務",
+        "imagingTaskAdd": "新增影像任務",
+        "imagingTaskEdit": "編輯影像任務",
+        "dataTask": "數據任務",
+        "dataTaskAdd": "新增數據任務",
+        "dataTaskDetail": "編輯數據任務",
+        "specialMission": "特別任務",
+        "specialMissionDrone": "無人機智慧救援",
+        "specialMissionUSV": "水面無人載具海面清潔及水深量測",
+        "specialMissionRobot": "自主移動機器人碼頭運輸",
+        "specialMissionIOT": "IoT 油污監控服務",
+        "taskManage": "任務管理",
+        "taskMonitoring": "任務監看",
+        "serviceManage": "服務管理",
+        "companyInfo": "企業資訊",
+        "groupMaintain": "群組維護",
+        "accountManage": "帳號維護",
+        "companyMaintainAdd": "新增公司/個人",
+        "vehicleMaintainAdd": "新增載具",
+        "inspectionTasksView": "檢視巡檢任務",
+        "dataTaskView": "檢視數據任務",
+        "imagingTaskView": "檢視影像任務",
+        "missionRecords": "任務記錄",
+        "missionRecordsDetail": "任務記錄",
+        "inspectionTasksMapView": "巡檢任務地圖資料設定",
+        "payloadManage": "酬載維護",
+        "payloadManageAdd": "新增酬載",
+        "payloadManageEdit": "編輯酬載",
+        "dataTaskResult": "數據任務結果",
+        "imagingResultView": "影像任務結果",
+        "inspectionRecords": "巡檢記錄",
+        "inspectionRecordsView": "巡檢記錄檢視",
+        "inspectionTasksList": "巡檢任務列表"
+    },
+    "systemNotification": {
+        "websocketFailed": "系統繁忙，請稍後再試(code: 01)",
+        "failedMenu": "系統繁忙，請稍後再試(code: 02)",
+        "routingError": "系統繁忙，請稍後再試(code: 03)",
+        "loginFailed": "登入失敗",
+        "accountNoMenu": "系統繁忙，請稍後再試(code: 04)",
+        "requestError": "系統繁忙，請稍後再試",
+        "error401": "登入逾時",
+        "error403": "無權限訪問",
+        "error404": "系統繁忙，請稍後再試",
+        "error500": "系統繁忙，請稍後再試",
+        "loginAgain": "請重新登入！",
+        "loggedOutTryAgain": "目前用戶已被登出或無權限訪問此資源，請嘗試重新登入後再操作。",
+        "unknownError": "系統繁忙，請稍後再試",
+        "noRespones": "系統繁忙，請稍後再試",
+        "systemError": "系統繁忙，請稍後再試(code: 09)",
+        "changeCompanyError": "系統繁忙，請稍後再試(code: 10)",
+        "resetCompanyError": "系統繁忙，請稍後再試(code: 11)",
+        "storageSpaceInsufficient": "儲存空間即將用盡",
+        "storageSpaceAbnormal": "儲存空間使用量異常",
+        "gpuUsageInsufficient": "GPU資源即將用盡",
+        "gpuUsageAbnormal": "GPU資源使用量異常",
+        "imminentExpireLicense": "授權使用期限即將到期",
+        "licenseExpired": "公司授權使用期間到期或無可登入的公司"
+    },
+    "changeCompanyGroup": {
+        "corporateManagement": "公司管理",
+        "company": "公司",
+        "group": "群組",
+        "licenseExpired": "授權過期",
+        "inspectionService": "巡檢服務",
+        "loginUser": "登入帳號",
+        "messages": {
+            "confirmMessage": "確定登出?",
+            "changeFail": "切換公司/群組時發生問題！"
+        }
+    },
+    "map": {
+        "planningScope": "規劃範圍",
+        "operationInstructions": "操作說明",
+        "longitude": "經度",
+        "latitude": "緯度",
+        "altitude": "高度",
+        "meter": "公尺",
+        "rangeHeight": "範圍高度",
+        "placeholder": {
+            "height": "請輸入範圍高度"
+        },
+        "button": {
+            "saveScope": "儲存範圍點位",
+            "complete": "完成設定",
+            "loadTrajectory": "載入軌跡設定",
+            "reset": "重設",
+            "skip": "略過",
+            "continueEditing": "繼續編輯",
+            "discardChanges": "不保留"
+        },
+        "OperationInstructions": {
+            "leftClick": "左鍵",
+            "leftClickDESC": "點選要移動的 Point & 確認 Point 的新點位",
+            "rightClick": "右鍵",
+            "rightClickDESC": "右鍵可讓要移動的 Point 回復到原位",
+            "drag": "拖曳",
+            "dragDESC": "移動點位"
+        },
+        "missionPath": {
+            "setPath": "設定路線",
+            "fromTrajectory": "從軌跡設定",
+            "trajectorySettings": "軌跡設定",
+            "pathType": "路線類型",
+            "areascan": "掃描路線",
+            "expandingsquare": "漸擴方形路線",
+            "vertical": "立面掃描路線",
+            "circle": "環繞路線",
+            "waypoints": "任意路線",
+            "circular3d": "立體環繞路線",
+            "setCenterTip": "設定中心點",
+            "timeline": "復飛復拍",
+            "flightLog": "軌跡路線",
+            "checkpoints": "檢查點照片",
+            "setStartEndTip": "設定起點與終點",
+            "setPathTip": "設定路線點位",
+            "height": "飛行高度 (M)",
+            "sideOverlap": "路線重疊率",
+            "intersection": "路線交錯",
+            "speed": "無人機速度",
+            "delayTime": "點位停留時間",
+            "camAngle": "鏡頭角度",
+            "fov": "鏡頭視角",
+            "searchRadius": "搜尋半徑 (M)",
+            "maxHeight": "最大高度",
+            "minHeight": "最小高度",
+            "sideDistance": "掃描間隔距離 (M)",
+            "pointCount": "生成點位數量",
+            "objectHeight": "物件高度 (M)",
+            "sideOverlapRate": "側向重疊率",
+            "exceeds": "超出",
+            "radius": "半徑 (M)",
+            "on": "開",
+            "off": "關",
+            "range": "範圍",
+            "cameraAngle": "鏡頭視角",
+            "change": "變更",
+            "generate": "產生",
+            "route": "路線",
+            "stereoscopicRoute": "立體環繞路線",
+            "rotationalPath": "旋轉路徑",
+            "fromFile": "從檔案上傳",
+            "fromRecords": "從記錄選擇",
+            "placeholder": {
+                "selPathType": "下拉選擇路線類型",
+                "setCenter": "點擊地圖設定中心點",
+                "routeOverLapRate": "{rangeStr} 數值",
+                "setStart": "點擊地圖設定起點",
+                "setEnd": "點擊地圖設定終點",
+                "rotationalPath": "-360 ~ 360 數值",
+                "fromFile": "點此選擇任務軌跡檔案位置 或 直接拖曳至選區",
+                "fromPhoto": "點此選擇復拍照片位置 或 直接拖曳至選區"
+            },
+            "messages": {
+                "pathNoSet": "未設定任務路線，請先在地圖上點擊設定",
+                "missionRouteLess": "未設定任務路線或點位少於 2 個",
+                "eraserRouteNotSet": "未設定漸擴路線中心點",
+                "pointNotSet": "未設起點或終點點位",
+                "centerNotSet": "未設定環繞路線中心點",
+                "changeNFZ": "禁航區已變更，請回路線規劃步驟重新規劃路線",
+                "changeNFZTitle": "提醒",
+                "valueGreaterMinimum": "數值請大於最小高度",
+                "valueLessMaximum": "數值請小於最大高度",
+                "exceedsRotateRange": "超過 -360~360 範圍",
+                "generatePathError": "生成路線錯誤，請洽管理員",
+                "closeMapMessage": "如有尚未儲存內容，關閉將會清除現有編輯",
+                "removedImageSuccessfully": "圖片清除成功"
+            }
+        },
+        "gimbalCamera": {
+            "messages": {
+                "gimbalCamera": "雲台 {action}",
+                "camera": "相機 {action}"
+            }
+        },
+        "uvOrder": {
+            "messages": {
+                "endMissionTitle": "確定要結束任務",
+                "endMissionContent": " 將直接返回基地待機",
+                "missionContinuation": "任務繼續執行",
+                "controlUV": "執行{action}指令",
+                "implementUVOrderTitle": "確定執行動作",
+                "implementUVOrderContent1": "將執行",
+                "implementUVOrderContent2": "指令",
+                "implementUVOrderCancel": "取消動作",
+                "endMissionSuccess": "成功結束任務"
+            },
+            "button": {
+                "throw": "投擲",
+                "rtl": "返航",
+                "auto": "繼續",
+                "land": "降落",
+                "rotate": "旋轉",
+                "loiter": "暫停",
+                "playsound": "廣播",
+                "goto": "前往",
+                "basicControls": "基本控制",
+                "advancedControls": "進階控制",
+                "endTask": "結束任務",
+                "continueMission": "繼續任務"
+            }
+        },
+        "droneInfo": {
+            "batteryLevel": "電量",
+            "voltage": "電壓",
+            "connectionCount": "連線數",
+            "altitude": "高度",
+            "speed": "速度",
+            "longitude": "經度",
+            "latitude": "緯度"
+        }
+    },
+    "weather": {
+        "title": "即時氣象資訊 | 今日氣象",
+        "noData": "無氣象資訊",
+        "overview": "天氣概況",
+        "temp": "溫度",
+        "rainfall": "降雨機率",
+        "windSpeed": "風速",
+        "windDire": "風向",
+        "location": "地點",
+        "historicalWeather": "歷史氣象資訊",
+        "realTimeWeather": "即時氣象資訊"
+    },
+    "vehicleStatus": {
+        "standby": "待命",
+        "run": "任務中",
+        "abnormal": "異常",
+        "offline": "離線",
+        "return": "返航"
+    },
+    "uvType": {
+        "all": "全部",
+        "uav": "無人機",
+        "usv": "無人船",
+        "amr": "機器人",
+        "other": "其他"
+    },
+    "taskStatus": {
+        "running": "執行中",
+        "completed": "已執行",
+        "waiting": "未執行",
+        "failed": "執行失敗",
+        "cancel": "已取消"
+    },
+    "caseStatus": {
+        "approve": "核准",
+        "reject": "退件",
+        "paending": "待審核",
+        "canceled": "已取消",
+        "executed": "已執行",
+        "cancel": "取消"
+    },
+    "enableStatus": {
+        "enabled": "啟用",
+        "disable": "停用",
+        "all": "全部",
+        "on": "開",
+        "off": "關"
+    },
+    "weekList": {
+        "Mon": "周一",
+        "Tue": "周二",
+        "Wed": "周三",
+        "Thu": "周四",
+        "Fri": "周五",
+        "Sat": "周六",
+        "Sun": "周日"
+    },
+    "files": {
+        "dropFilesUploadMsg": "拖曳 或 點擊 選擇您想上傳的檔案…",
+        "downloadSuccess": "檔案下載完成 | 下載檔案成功！",
+        "downloadFail": "檔案下載失敗",
+        "remove": "移除檔案",
+        "download": "下載",
+        "deleteConfirm": "確定移除檔案？",
+        "deleteSuccess": "檔案刪除成功！",
+        "files": "檔案",
+        "SuccessfullyUploaded": "成功上傳",
+        "downloading": "下載中",
+        "done": "完成"
+    },
+    "button": {
+        "confirm": "確定",
+        "loginAgain": "重新登入",
+        "confirmChange": "確定修改",
+        "confirmAdd": "確定新增",
+        "cancel": "取消",
+        "addTask": "新增任務",
+        "addGroup": "新建群組",
+        "addAccount": "新增帳號",
+        "addBrand": "新增廠牌",
+        "addVehicle": "新增載具",
+        "addPayload": "新增酬載",
+        "addCompany": "新增公司/個人",
+        "addImage": "新增影像",
+        "addData": "新增數據",
+        "addImageAnalysis": "新增影像分析",
+        "addDataMonitor": "新增數據監測",
+        "execute": "執行",
+        "result": "結果",
+        "edit": "編輯",
+        "delete": "刪除",
+        "remove": "移除",
+        "view": "檢視",
+        "returnList": "返回列表",
+        "executeMission": "執行任務",
+        "endMission": "結束任務",
+        "expandAll": "全部展開",
+        "collapseAll": "全部關閉",
+        "More": "更多",
+        "signOut": "登出",
+        "uploadMission": "上傳任務",
+        "save": "儲存",
+        "generatePath": "產生路徑",
+        "continueMission": "繼續任務",
+        "downloadAll": "全部下載",
+        "deleteAll": "全部刪除",
+        "download": "下載",
+        "mapView": "地圖檢視",
+        "complete": "完成",
+        "search": "搜尋",
+        "next": "下一步",
+        "previous": "上一步",
+        "finish": "完成"
+    },
+    "unit": {
+        "timeSec": "秒",
+        "camAngle": "度",
+        "distanceMeter": "公尺",
+        "speed": "公里/時",
+        "days": "天",
+        "headcount": "人",
+        "points": "點",
+        "accounts": "個",
+        "groups": "組",
+        "devices": "台",
+        "cases": "件",
+        "inspection": "次",
+        "mileage": "公里",
+        "hours": "小時",
+        "events": "件"
+    },
+    "inspectionTasks": {
+        "inspectionDate": "巡檢日期",
+        "applyNo": "申請單號",
+        "missionName": "任務名稱",
+        "uvType": "載具型式",
+        "uvID": "載具編號",
+        "operateMode": "任務模式",
+        "startEndDate": "起迄日期",
+        "form": {
+            "applyNo": "單號",
+            "missionName": "任務名稱",
+            "uvType": "載具型式",
+            "operateMode": "任務模式",
+            "endOfAction": "任務結束動作",
+            "uvID": "載具編號",
+            "brandName": "載具廠牌",
+            "modelName": "載具型號",
+            "operator": "任務執行者",
+            "payloadID": "酬載",
+            "scheduleDate": "巡檢日期",
+            "scheduleTime": "巡檢時間",
+            "captureMode": "巡檢拍照模式",
+            "imageTask": "影像任務設定",
+            "dataTask": "數據任務設定"
+        },
+        "placeholder": {
+            "missionName": "請輸入任務名稱",
+            "uvType": "請輸入載具型式 | 下拉選擇載具形式",
+            "uvID": "下拉選擇載具編號 | 請輸入載具編號",
+            "operator": "下拉選擇任務執行者",
+            "payloadID": "下拉選擇酬載",
+            "scheduleDate": "請選擇日期 | 請選擇每周循環日",
+            "startTime": "開始時間",
+            "endTime": "結束時間",
+            "dueDate": "請選擇截止日期",
+            "applyNo": "請輸入申請單號",
+            "captureMode": "請下拉選擇拍照模式",
+            "captureParam": "請輸入拍照參數",
+            "endOfAction": "下拉選擇任務結束動作"
+        },
+        "formRules": {
+            "missionName": "請輸入任務名稱",
+            "uvType": "請輸入載具型式",
+            "uvID": "下拉選擇載具編號",
+            "operator": "下拉選擇任務執行者",
+            "payloadID": "下拉選擇酬載",
+            "captureMode": "請下拉選擇拍照模式",
+            "captureParam": "請輸入拍照參數",
+            "taskTimeRange": "請選擇開始/結束時間",
+            "dueDate": "請選擇截止日期",
+            "scheduleDate": "請選擇日期 | 請選擇每周循環日"
+        },
+        "captureMode": {
+            "off": "關閉",
+            "waypointcap": "定點",
+            "intervalcap": "定時 (秒)",
+            "distancecap": "定距 (公尺)"
+        },
+        "vehicleOperaType": {
+            "manual": "手動",
+            "automatic": "自動"
+        },
+        "dateRange": {
+            "recurring": "週期",
+            "scheduling": "排程"
+        },
+        "messages": {
+            "payloadChangeTitle": "酬載資訊已變更",
+            "payloadChangeDetail": "需重新設定地圖資料！",
+            "selectUVType": "請先選擇載具型式",
+            "selectUVID": "請先選擇載具編號",
+            "selectPayload": "請先選擇酬載",
+            "addSuccess": "新增巡檢任務成功！",
+            "addFail": "新增巡檢任務失敗！",
+            "updateSuccess": "更新巡檢任務資訊成功！",
+            "updateFail": "更新巡檢任務資訊失敗！",
+            "uploadSuccess": "發送上傳任務指令成功！",
+            "uploadFail": "發送上傳任務指令失敗！",
+            "sendExecSuccess": "發送執行指令成功！",
+            "sendExecFail": "發送執行指令失敗！",
+            "deleteConfirm": "確定刪除任務？",
+            "deleteSuccess": "刪除巡檢任務資料成功！"
+        },
+        "mapSetting": {
+            "mapDataSetting": "地圖資料設定",
+            "noSet": "未設定",
+            "missionPathNoSet": "路線未設定",
+            "missionScope": "任務範圍",
+            "customNoFlyZone": "自訂禁航區",
+            "flightPathType": "路徑類型",
+            "planningScope": "規劃範圍",
+            "planningRoute": "路線規劃",
+            "searchAddress": "請輸入地址",
+            "taskScopeTip": "先填寫高度，再滾動並點擊地圖規劃任務範圍",
+            "nfzTip": "先填寫高度，點擊自訂禁航區",
+            "pathTypeTip": "選擇路線類型",
+            "operateStepTip": "還在畫範圍中，請先儲存再執行下個步驟",
+            "scopeNotSetTip": "巡檢範圍未設定，請先設定巡檢範圍",
+            "coordinates": "座標",
+            "height": "飛行高度 (M)",
+            "sideOverlap": "路線重疊率",
+            "fov": "鏡頭視角",
+            "intersection": "路線交錯",
+            "speed": "無人機速度",
+            "delayTime": "點位停留時間",
+            "camAngle": "鏡頭角度",
+            "centerPoint": "中心點座標",
+            "searchRadius": "搜尋半徑 (M)",
+            "scanPointS": "掃描起始座標",
+            "scanPointE": "掃描結束座標",
+            "maxHeight": "最大高度 (M)",
+            "minHeight": "最小高度 (M)",
+            "sideDistance": "掃描間隔距離 (M)",
+            "circlePointS": "圓第一點座標",
+            "circlePointE": "圓第二點座標",
+            "pointCount": "生成點位數量",
+            "objectHeight": "物件高度(M)",
+            "maxAltitude": "最高高度",
+            "minAltitude": "最低高度",
+            "surroundingPoints": "環繞點位數量",
+            "intersectionResult": "是 | 否",
+            "timelineType": "復飛路線",
+            "waypoints": "點位數量",
+            "checkpoints": "復拍數量"
+        }
+    },
+    "imageTask": {
+        "missionTime": "任務時間",
+        "taskStatus": "任務狀態",
+        "imageResource": "影像來源",
+        "taskApplyNo": "任務單號",
+        "missionName": "任務名稱",
+        "progress": "任務進度",
+        "missionType": "任務類型",
+        "form": {
+            "missionName": "任務名稱",
+            "imageTaskSetting": "影像任務設定",
+            "imageSource": "影像來源",
+            "uploadFile": "從檔案上傳",
+            "fromInspecitonRecords": "從巡檢紀錄選擇",
+            "inspectionDate": "巡檢日期",
+            "uvID": "載具編號",
+            "uvName": "載具名稱",
+            "startEndDate": "起迄日期"
+        },
+        "formRules": {
+            "missionName": "任務名稱為必填！",
+            "imageTaskSetting": "影像任務設定為必填！"
+        },
+        "placeholder": {
+            "taskStatus": "請選擇任務狀態",
+            "imageResource": "請選擇影像來源",
+            "missionName": "請輸入任務名稱",
+            "uvID": "請輸入載具編號",
+            "missionType": "請選擇任務類型"
+        },
+        "messages": {
+            "createMediaSuccess": "建立媒體空間成功",
+            "confirmDeleteAll": "確定刪除全部媒體檔案？",
+            "deleteMediaSuccess": "媒體檔案刪除成功！",
+            "addTaskSuccess": "新增影像任務成功！",
+            "downloadAllSuccess": "下載全部檔案成功！",
+            "execTaskSuccess": "執行影像任務成功！",
+            "execTaskFail": "執行影像任務失敗！",
+            "editTaskSuccess": "編輯影像任務成功！",
+            "deleteMissionSuccess": "刪除/取消影像任務資料成功！",
+            "deleteCancelMission": "確定刪除/取消任務？"
+        }
+    },
+    "dataTask": {
+        "missionTime": "任務時間",
+        "missionName": "任務名稱",
+        "taskStatus": "任務狀態",
+        "dataResource": "數據來源",
+        "taskApplyNo": "任務單號",
+        "progress": "任務進度",
+        "missionType": "任務類型",
+        "form": {
+            "missionName": "任務名稱",
+            "threshold": "閥值",
+            "dataTaskSettings": "數據任務設定",
+            "dataResource": "數據來源",
+            "uploadFile": "從檔案上傳",
+            "fromInspecitonRecords": "從巡檢紀錄選擇",
+            "inspectionDate": "巡檢日期",
+            "uvID": "載具編號",
+            "uvName": "載具名稱",
+            "startEndDate": "起迄日期"
+        },
+        "formRules": {
+            "missionName": "任務名稱為必填！",
+            "dataTaskSettings": "數據任務設定為必填！"
+        },
+        "placeholder": {
+            "taskStatus": "請選擇任務狀態",
+            "imageResource": "請選擇影像來源",
+            "missionName": "請輸入任務名稱",
+            "threshold": "請輸入閥值",
+            "uvID": "請輸入載具編號",
+            "missionType": "請選擇任務類型"
+        },
+        "messages": {
+            "createMediaSuccess": "建立媒體空間成功",
+            "confirmDeleteAll": "確定刪除全部媒體檔案？",
+            "deleteMediaSuccess": "媒體檔案刪除成功！",
+            "addTaskSuccess": "新增數據任務成功！",
+            "downloadAllSuccess": "下載全部檔案成功！",
+            "execTaskSuccess": "執行數據任務成功！",
+            "execTaskFail": "執行數據任務失敗！",
+            "editTaskSuccess": "編輯數據任務成功！",
+            "deleteMissionSuccess": "刪除/取消數據任務資料成功！",
+            "deleteCancelMission": "確定刪除/取消任務？"
+        }
+    },
+    "inspectionTasksRecords": {
+        "missionTitle": "任務資訊",
+        "missionName": "任務名稱",
+        "inspectionDate": "巡檢日期",
+        "uvID": "載具編號",
+        "vehicleName": "載具名稱",
+        "startEndDate": "起迄日期",
+        "duration": "總時數(秒)",
+        "distance": "總距離(公尺)",
+        "event": "事件",
+        "quantity": "處理數量",
+        "time": "處理時間(秒)",
+        "summary": "摘要資訊",
+        "advanceFilter": "進階搜尋",
+        "placeholder": {
+            "missionName": "請輸入任務名稱",
+            "uvID": "請輸入載具編號",
+            "remark": "請輸入備註說明"
+        },
+        "messages": {
+            "noEventRecord": "無巡檢紀錄事件",
+            "noEventImg": "無事件圖片",
+            "confirmDelete": "確定刪除任務紀錄？",
+            "deleteSuccess": "刪除任務紀錄成功！",
+            "updateRemarkSuccess": "更新事件摘要成功！"
+        }
+    },
+    "companyMaintain": {
+        "guiNumber": "公司統編/身分證字號",
+        "companyName": "公司/個人名稱",
+        "expireDate": "授權使用期限",
+        "form": {
+            "guiNumber": "公司統編/身分證字號",
+            "companyName": "公司/個人名稱",
+            "compAdminEmail": "指定管理帳號",
+            "expireDate": "授權使用期限",
+            "storageSpace": "設定可用空間",
+            "authorizeAccountNum": "可建立帳號數量",
+            "authorizeVehicleNum": "可建立載具數量",
+            "authorizeGroupNum": "可建立群組數量",
+            "authorizeGPU": "設定GPU可用量",
+            "setPermissions": "設定功能權限"
+        },
+        "formRules": {
+            "guiNumber": "公司統編/身分證字號為必填！",
+            "companyName": "公司/個人名稱為必填！",
+            "compAdminEmail": "管理員帳號為必填！",
+            "emailFormat": "必需為email格式！",
+            "expireDate": "授權使用期限為必填！",
+            "storageSpace": "請輸入可用空間大小！必需大於等於100！",
+            "authorizeAccountNum": "請輸入可建立帳號數量！",
+            "authorizeVehicleNum": "請輸入可建立載具數量！",
+            "authorizeGroupNum": "請輸入可建立群組數量！",
+            "authorizeGPU": "請輸入GPU可用量！必需大於等於360000！",
+            "setPermissions": "請至少選擇一個功能權限！"
+        },
+        "placeholder": {
+            "guiNumber": "請輸入統編或身分證字號",
+            "companyName": "請輸入公司/個人名稱",
+            "compAdminEmail": "設定管理員帳號",
+            "compAdminEmailDDL": "下拉選擇使用者帳號",
+            "expireDate": "設定到期日",
+            "resetManageAccount": "重置管理帳號",
+            "selectAuthorization": "勾選授權"
+        },
+        "messages": {
+            "noUserData": "無可用的使用者帳號",
+            "createSuccessfully": "新增企業資訊成功！",
+            "failCreate": "新增企業資訊失敗！",
+            "updateSuccessfully": "修改企業資訊成功！",
+            "failUpdate": "修改企業資訊失敗！"
+        }
+    },
+    "companyInfo": {
+        "numberID": "公司統編/身分證字號",
+        "name": "公司/個人名稱",
+        "authorizationUsagePeriod": "授權使用期限",
+        "remaining": "剩餘",
+        "storageSpace": "可用儲存空間",
+        "canAccountNumber": "可建帳號數量",
+        "createdAccount": "已建帳號",
+        "canVehiclesNumber": "可建載具數量",
+        "createdVehicles": "已建載具",
+        "canGroupsNumber": "可建群組數量",
+        "createdGroups": "已建群組",
+        "authorizeGPU": "GPU 使用量",
+        "used": "已使用",
+        "adminPermissions": "系統管理員權限",
+        "userPermissions": "一般使用者權限",
+        "authItem": "授權項目"
+    },
+    "brandModelMaintain": {
+        "model": "型號",
+        "vehicleType": "載具型式",
+        "form": {
+            "brandInfoTitle": "廠牌資訊",
+            "logo": "廠牌商標",
+            "brandName": "廠牌名稱",
+            "vehicleModelTitle": "載具型號",
+            "modelImage": "型號圖片",
+            "vehicleName": "型號名稱",
+            "vehicleType": "載具型式",
+            "optionInfo": {
+                "title": "選項資訊",
+                "navigation": "導航方式",
+                "power": "使用動力",
+                "remoteControl": "遙控方式/頻率",
+                "height": "載具高度",
+                "length": "載具長度",
+                "width": "載具寬度",
+                "MTOW": "最大起飛重量",
+                "maxSpeed": "最大速度"
+            },
+            "gimbalCameraCtrl": {
+                "title": "雲台相機控制",
+                "gimbPitch": "俯仰調整",
+                "gimbYaw": "水平旋轉",
+                "gimbHome": "雲台回正",
+                "capture": "拍照功能",
+                "video": "錄影功能",
+                "zoom": "縮放鏡頭",
+                "zoomReset": "縮放重置"
+            },
+            "basicCtrl": {
+                "title": "基本控制",
+                "rtl": "返航",
+                "land": "降落",
+                "rotate": "旋轉",
+                "loiter": "暫停"
+            },
+            "advancedCtrl": {
+                "title": "進階控制",
+                "throw": "投擲",
+                "playsound": "廣播"
+            }
+        },
+        "placeholder": {
+            "brandName": "請輸入廠牌名稱",
+            "vehicleName": "請輸入型號名稱",
+            "vehicleType": "下拉選擇載具型式",
+            "navigation": "選擇導航方式",
+            "power": "選擇使用動力",
+            "remoteControl": "選擇遙控方式/頻率",
+            "brandLogoRecommend": "建議單色去背 尺寸{width} x {height} (PNG/JPG)",
+            "modelImgRecommend": "建議尺寸{width} x {height} (PNG/JPG)",
+            "moreOptionalInformation": "更多選填資訊"
+        },
+        "navigationOptions": {
+            "satellite": "衛星系統",
+            "inertialNavigation": "慣性導航系統",
+            "vision": "視覺系統",
+            "satelliteAndVision": "衛星/視覺系統",
+            "satelliteAndinertialNavigation": "衛星/慣性導航系統",
+            "mixAll": "衛星/視覺系統/慣性導航系統",
+            "none": "無"
+        },
+        "powerOptions": {
+            "fuel": "燃油",
+            "woodSpirit": "木精",
+            "battery": "電池",
+            "hybrid": "混合動力",
+            "none": "無動力"
+        },
+        "remoteControlOptions": {
+            "wifi": "WiFi",
+            "mobileCommunication": "3G/4G/5G",
+            "analog": "類比",
+            "infrared": "紅外線",
+            "bluetooth": "藍芽"
+        },
+        "messages": {
+            "addBrandSuccess": "新增廠牌資料成功！",
+            "editBrandSuccess": "編輯廠牌資料成功！",
+            "editBrandFail": "編輯廠牌資料失敗！",
+            "confirmDelMsgTitle": "刪除廠牌",
+            "deleteBrandSuccess": "刪除廠牌資料成功！",
+            "addModelSuccess": "新增型號資料成功！",
+            "inputNotify": "請輸入新增載具的型號/型式",
+            "editModelSuccess": "編輯型號資料成功！",
+            "editModelFail": "編輯型號資料失敗！",
+            "confirmModelDelete": "確定刪除型號？",
+            "deleteModelSuccess": "刪除型號資料成功！"
+        }
+    },
+    "payloadManage": {
+        "payloadName": "酬載名稱",
+        "form": {
+            "payloadName": "酬載名稱",
+            "maxFocalLength": "最大焦段",
+            "minFocalLength": "最小焦段",
+            "maxAperture": "最大光圈",
+            "minAperture": "最小光圈",
+            "maxFOV": "最大可視角",
+            "minFOV": "可視角",
+            "resolutionLength": "解析度長",
+            "resolutionWidth": "解析度寬"
+        },
+        "rules": {
+            "payloadName": "酬載名稱為必填！"
+        },
+        "placeholder": {
+            "payloadName": "請輸入酬載名稱",
+            "maxFocalLength": "請輸入最大焦段",
+            "minFocalLength": "請輸入最小焦段",
+            "maxAperture": "請輸入最大光圈",
+            "minAperture": "請輸入最小光圈",
+            "maxFOV": "請輸入最大可視角",
+            "minFOV": "請輸入可視角",
+            "resolutionLength": "請輸入解析度長",
+            "resolutionWidth": "請輸入解析度寬"
+        },
+        "messages": {
+            "addPayloadSuccess": "新增酬載資料成功！",
+            "editPayloadSuccess": "編輯酬載資料成功！",
+            "deletePayloadSuccess": "刪除酬載資料成功！"
+        }
+    },
+    "vehicleMaintain": {
+        "vehicleNumber": "載具編號",
+        "vehicleType": "載具型式",
+        "status": "狀態",
+        "missionName": "任務名稱",
+        "vehicleName": "載具名稱",
+        "owner": "持有人",
+        "operator": "任務執行者",
+        "odometer": "累積里程數(公里)",
+        "totalFlightTime": "累積時數(小時)",
+        "form": {
+            "vehicleType": "載具型式",
+            "vehicleName": "載具名稱",
+            "serialNumber": "載具序號",
+            "vehicleModel": "載具型號",
+            "defaultPayload": "預設酬載",
+            "vehicleNumber": "載具編號",
+            "vehicleIP": "載具IP",
+            "vehicleBrand": "載具廠牌",
+            "owner": "持有人",
+            "rtsp": "RTSP串流網址",
+            "rtmp": "RTMP串流網址",
+            "description": "說明",
+            "odometer": "累積里程數(公里)",
+            "totalFlightTime": "累積時數(小時)"
+        },
+        "placeholder": {
+            "vehicleType": "下拉選擇載具形式",
+            "status": "下拉選擇載具狀態",
+            "vehicleName": "請填寫載具名稱",
+            "serialNumber": "請填寫載具序號",
+            "vehicleModel": "下拉選擇載具型號",
+            "defaultPayload": "下拉選擇預設酬載",
+            "vehicleNumber": "請填寫載具編號",
+            "vehicleIP": "請填寫載具IP",
+            "vehicleBrand": "下拉選擇載具廠牌",
+            "owner": "下拉選擇持有人",
+            "uvID": "請輸入載具編號"
+        },
+        "messages": {
+            "addSuccess": "新增載具資訊成功！",
+            "addFail": "新增載具資訊失敗！",
+            "updateSuccess": "更新載具資訊成功！",
+            "updateFail": "更新載具資訊失敗！",
+            "deleteVehicle": "確定刪除載具？",
+            "deleteVehicleSuccess": "刪除載具資訊成功！",
+            "missionIncorrect": "此載具執行任務資訊有誤"
+        },
+        "button": {
+            "allList": "全部列表",
+            "mapOverview": "地圖總覽"
+        }
+    },
+    "groupMaintain": {
+        "createdGroup": "已建立群組",
+        "defaultGroup": "系統預設群組",
+        "lineBinding": "LINE訊息綁定",
+        "memberNumber": "成員數",
+        "successfully": "成功綁定 | 已綁定",
+        "notYetBound": "尚未綁定",
+        "form": {
+            "groupName": "群組",
+            "lineBinding": "LINE綁定",
+            "goBinding": "前往綁定",
+            "unbind": "解除綁定"
+        },
+        "placeholder": {
+            "groupName": "請輸入群組名稱"
+        },
+        "formRules": {
+            "groupName": "請輸入群組名稱"
+        },
+        "messages": {
+            "overMaximum": "可建立群組數量已達上限！",
+            "createSuccessfully": "新增群組成功！",
+            "failCreate": "新增群組失敗！",
+            "updateSuccessfully": "更新群組資訊成功！",
+            "failUpdate": "更新群組資訊發生問題，更新群組資訊失敗！",
+            "confirmDelete": "確定刪除群組？",
+            "failDelete": "刪除群組發生問題，刪除群組失敗！ | 刪除群組失敗！ ",
+            "checkDeleteMsg": "無法刪除目前所在的群組！",
+            "deleteSuccessfully": "刪除群組成功！",
+            "confirmUnbind": "確定解除綁定？",
+            "unbindSuccessfully": "解除綁定成功！",
+            "failUnbind": "解除綁定失敗！"
+        }
+    },
+    "accountMaintain": {
+        "authorizationQuantity": "帳號授權數量",
+        "includeCompanyAdmin": "含公司管理員",
+        "enterpriseAdministrator": "企業管理者",
+        "systemAdministrator": "系統管理者",
+        "EnterpriseUser": "企業使用者",
+        "form": {
+            "role": "角色",
+            "accountName": "帳號",
+            "group": "群組",
+            "description": "說明"
+        },
+        "placeholder": {
+            "role": "下拉選擇角色",
+            "accountName": "請輸入帳號名稱",
+            "group": "下拉選擇群組"
+        },
+        "formRules": {
+            "role": "角色為必選！",
+            "accountName": "帳號為必填！ | 必需為email格式！",
+            "group": "請至少選擇一個群組！"
+        },
+        "messages": {
+            "overMaximum": "可建立帳號數量已達上限！",
+            "createSuccessfully": "新增帳號成功！",
+            "failAdd": "新增帳號失敗！",
+            "updateSuccessfully": "已成功更新授權帳號資訊！",
+            "failUpdate": "更新授權帳號資訊發生問題，更新授權帳號資訊失敗！",
+            "minimumLimit": "帳號授權數量不得低於1！",
+            "confirmDelete": "確定刪除帳號？",
+            "deleteSuccessfully": "已成功刪除授權帳號！",
+            "failDelete": "刪除授權帳號發生錯誤，刪除授權帳號失敗！",
+            "deletionProhibited": "禁止移除系統預設群組！",
+            "unableRemoveCurrent": "無法移除目前所在群組！"
+        }
+    },
+    "intelligentFunctionImage": {
+        "imgAnalysisID": "影像分析功能編號",
+        "imgAnalysisName": "影像分析功能名稱",
+        "status": "狀態",
+        "placeholder": {
+            "imgAnalysisID": "請輸入影像分析功能編號",
+            "imgAnalysisName": "請輸入影像分析名稱",
+            "status": "請選擇功能狀態"
+        },
+        "messages": {
+            "addSuccess": "新增影像分析成功！",
+            "updateSuccess": "編輯影像分析成功！",
+            "invalidFormat": "請輸入正確格式！"
+        }
+    },
+    "intelligentFunctionData": {
+        "dataMonitoringID": "數據監測功能編號",
+        "dataMonitoringName": "數據監測功能名稱",
+        "status": "狀態",
+        "placeholder": {
+            "dataMonitoringID": "請輸入數據監測功能編號",
+            "dataMonitoringName": "請輸入數據監測功能名稱",
+            "status": "請選擇功能狀態"
+        },
+        "messages": {
+            "addSuccess": "新增數據監測成功！",
+            "updateSuccess": "編輯數據監測成功！",
+            "invalidFormat": "請輸入正確格式！"
+        }
+    },
+    "dashboard": {
+        "customerStatus": {
+            "title": "客戶狀態",
+            "inUse": "使用中",
+            "willExpire": "將到期",
+            "expired": "已到期",
+            "total": "總計"
+        },
+        "supportedDevices": {
+            "title": "支援載具",
+            "totalBrand": "廠牌數量",
+            "totalModel": "型號數量"
+        },
+        "resourceStatistics": {
+            "title": "資源統計",
+            "storage": "儲存空間",
+            "gpu": "GPU",
+            "account": "帳號",
+            "group": "群組",
+            "uv": "載具",
+            "aboutTotal": "總共"
+        },
+        "vehicleStatus": {
+            "title": "載具狀態",
+            "total": "總數"
+        },
+        "inspectionStatistics": {
+            "dateRangeDDL": {
+                "thisMonth": "本月",
+                "pastThreeMonth": "近三月",
+                "thisYear": "今年",
+                "pastYear": "近一年"
+            },
+            "title": "巡檢統計",
+            "totalMission": "建立任務數量",
+            "totalInspection": "累積巡檢次數",
+            "odometer": "總累積里程",
+            "totalTime": "總累積時數",
+            "totalEvent": "累計事件"
+        },
+        "systemMessage": {
+            "title": "系統訊息",
+            "noData": "目前無系統訊息"
+        }
+    },
+    "common": {
+        "live": "即時",
+        "media": "檔案",
+        "record": "紀錄"
+    },
+    "eventDialog": {
+        "picture": "巡檢事件照片",
+        "time": "時間",
+        "longitude": "經度",
+        "latitude": "緯度"
+    },
+    "tip": {
+        "delSuccess": "刪除任務成功",
+        "resetPerspective": "重置視角",
+        "enlarge": "放大",
+        "zoomOut": "縮小"
+    },
+    "streaming": "串流",
+    "management": "管理",
+    "explanation": "說明",
+    "remarks": "備註",
+    "enterKeywords": "請輸入關鍵字",
+    "noData": "暫無資料",
+    "hide": "隱藏",
+    "multiSelect": "可複選",
+    "optional": "非必填 | 選填",
+    "list": "列表",
+    "select": "請選擇",
+    "options": "選項",
+    "set": "已設定",
+    "notSet": "尚未設定",
+    "none": "無",
+    "noMoreData": "已無資料"
+}

@@ -1,0 +1,1024 @@
+{
+  "systemNavMenu": {
+    "login": "Login",
+    "dashboard": "Home",
+    "companyManage": "Customer Management",
+    "companyMaintain": "Customer Maintenance",
+    "companyMaintainEdit": "Edit Company/Individual",
+    "vehicleManage": "Vehicle",
+    "vehicleModelMaintain": "Brand and Model Maintenance",
+    "vehicleMaintain": "List of Vehicles",
+    "vehicleMaintainEdit": "Edit Vehicle",
+    "vehicleMonitorDetail": "Vehicle Monitoring",
+    "intelligentFunctionManage": "Smart Function Management",
+    "imageAnalysis": "Image Analysis Function",
+    "dataMonitor": "Data Monitoring Function",
+    "inspectionTasks": "Missions",
+    "inspectionTasksEdit": "Edit Mission",
+    "inspectionTasksAdd": "Add Mission",
+    "imagingTask": "Image Task",
+    "imagingTaskAdd": "Add Image Task",
+    "imagingTaskEdit": "Edit Image Task",
+    "dataTask": "Data Task",
+    "dataTaskAdd": "Add Data Task",
+    "dataTaskDetail": "Edit Data Task",
+    "specialMission": "Special Mission",
+    "specialMissionDrone": "Drone Smart Rescue",
+    "specialMissionUSV": "USV Sea Cleaning and Depth Measurement",
+    "specialMissionRobot": "AMR Transport",
+    "specialMissionIOT": "Oil Pollution Monitoring",
+    "taskManage": "Mission Monitoring",
+    "taskMonitoring": "Mission Monitoring",
+    "serviceManage": "Service Management",
+    "companyInfo": "Information",
+    "groupMaintain": "Group",
+    "accountManage": "Account",
+    "companyMaintainAdd": "Add Company/Individual",
+    "vehicleMaintainAdd": "Add Vehicle",
+    "inspectionTasksView": "Mission Detail",
+    "dataTaskView": "Data Task Detail",
+    "imagingTaskView": "Image Task Detail",
+    "missionRecords": "Mission Records",
+    "missionRecordsDetail": "Mission Records",
+    "inspectionTasksMapView": "Map Setting",
+    "payloadManage": "Payload Maintenance",
+    "payloadManageAdd": "Add Payload",
+    "payloadManageEdit": "Edit Payload",
+    "dataTaskResult": "Data Task Results",
+    "imagingResultView": "Image Task Results",
+    "inspectionRecords": "Records",
+    "inspectionRecordsView": "Mission Records",
+    "inspectionTasksList": "Mission List"
+  },
+  "systemNotification": {
+    "websocketFailed": "The system is busy. Please try again later. (Code: 01)",
+    "failedMenu": "The system is busy. Please try again later. (Code: 02)",
+    "routingError": "The system is busy. Please try again later. (Code: 03)",
+    "loginFailed": "Login failed.",
+    "accountNoMenu": "The system is busy. Please try again later. (Code: 04)",
+    "requestError": "The system is busy. Please try again later.",
+    "error401": "Login timeout.",
+    "error403": "No permission to access.",
+    "error404": "The system is busy. Please try again later.",
+    "error500": "The system is busy. Please try again later.",
+    "loginAgain": "Please log in again!",
+    "loggedOutTryAgain": "The current user session has either expired or lacks the necessary permissions to access this resource. Please log in again before proceeding.",
+    "unknownError": "The system is busy. Please try again later.",
+    "noRespones": "The system is busy. Please try again later.",
+    "systemError": "The system is busy. Please try again later. (Code: 09)",
+    "changeCompanyError": "The system is busy. Please try again later. (Code: 10)",
+    "resetCompanyError": "The system is busy. Please try again later. (Code: 11)",
+    "storageSpaceInsufficient": "Storage space is nearly full.",
+    "storageSpaceAbnormal": "Abnormal storage usage detected",
+    "gpuUsageInsufficient": "GPU resources are nearly exhausted.",
+    "gpuUsageAbnormal": "Abnormal GPU usage detected.",
+    "imminentExpireLicense": "License expiration is approaching.",
+    "licenseExpired": "The company's license has expired, or no valid company is available for login."
+  },
+  "changeCompanyGroup": {
+    "corporateManagement": "Corporate Management",
+    "company": "Company",
+    "group": "Group",
+    "licenseExpired": "Expired",
+    "inspectionService": "Inspection Service",
+    "loginUser": "Login Account",
+    "messages": {
+      "confirmMessage": "Confirm log out?",
+      "changeFail": "There was an issue while switching companies/groups.!"
+    }
+  },
+  "map": {
+    "planningScope": "Planning Area",
+    "operationInstructions": "Operation Instructions",
+    "longitude": "Longitude",
+    "latitude": "Latitude",
+    "altitude": "Altitude",
+    "meter": "Meters",
+    "rangeHeight": "Height",
+    "placeholder": {
+      "height": "Please enter the range height"
+    },
+    "button": {
+      "saveScope": "Save",
+      "complete": "Finish",
+      "loadTrajectory": "Load Trajectory Settings",
+      "reset": "Reset",
+      "skip": "Skip",
+      "continueEditing": "Continue Editing",
+      "discardChanges": "Discard Changes"
+    },
+    "OperationInstructions": {
+      "leftClick": "Left-click",
+      "leftClickDESC": "Click on the point to move & confirm the new position of the point",
+      "rightClick": "Right-click",
+      "rightClickDESC": "Right-click to revert the point to its original position",
+      "drag": "Drag",
+      "dragDESC": "Move Point"
+    },
+    "missionPath": {
+      "setPath": "Set Route",
+      "fromTrajectory": "From Flightlog",
+      "trajectorySettings": "FlightLog Settings",
+      "pathType": "Route Type",
+      "areascan": "Grid",
+      "expandingsquare": "Expanding Square",
+      "vertical": "Facade Scan",
+      "circle": "Orbit ",
+      "waypoints": "Custom",
+      "circular3d": "3D Orbit ",
+      "timeline": "Timeline",
+      "setCenterTip": "Set Center Point",
+      "flightLog": "Flight Log",
+      "checkpoints": "Check Points",
+      "setStartEndTip": "Set Start and End Points",
+      "setPathTip": "Set Route Waypoints",
+      "height": "Flight Altitude (M)",
+      "sideOverlap": "Side Overlap",
+      "intersection": "Dobule Grid",
+      "speed": "Speed",
+      "delayTime": "Stay Time",
+      "camAngle": "Gimbal Angle",
+      "fov": "FOV",
+      "searchRadius": "Radius (M)",
+      "maxHeight": "Max. Altitude ",
+      "minHeight": "Min.  Altitude ",
+      "sideDistance": "Scan Interval Distance (M)",
+      "pointCount": "Waypoint Quantity",
+      "objectHeight": "Object height (M)",
+      "sideOverlapRate": "Side Overlap",
+      "exceeds": "Exceeds",
+      "radius": "Radius (M)",
+      "on": "On",
+      "off": "Off",
+      "range": "Range",
+      "cameraAngle": "FOV",
+      "change": "Apply",
+      "generate": "Generate",
+      "route": "Route",
+      "stereoscopicRoute": "3D Orbit",
+      "rotationalPath": "Rotation Angle",
+      "fromFile": "Upload File",
+      "fromRecords": "Select Records",
+      "placeholder": {
+        "selPathType": "-- Select --",
+        "setCenter": "Tap to set the center point",
+        "routeOverLapRate": "{rangeStr} Value",
+        "setStart": "Tap to set start point",
+        "setEnd": "Tap to set end point",
+        "rotationalPath": "Value range of -360 to 360",
+        "fromFile": "Click here to select the flight log file location or drag it directly into the selection area",
+        "fromPhoto": "Click here to select the check point photo location or drag it directly into the selection area"
+      },
+      "messages": {
+        "pathNoSet": "Please tap to set route on the map first.",
+        "missionRouteLess": "Route not set or waypoint less than 2 points",
+        "eraserRouteNotSet": "Please set center point first.",
+        "pointNotSet": "Please set start or end point first.",
+        "centerNotSet": "Please set center point first.",
+        "changeNFZ": "The custom no-fly zone has been updated. Please return to the route planning steps and re-plan the route",
+        "changeNFZTitle": "Reminder",
+        "valueGreaterMinimum": "Please set the value greater than the minimum height",
+        "valueLessMaximum": "Please set the value less than the maximum height",
+        "exceedsRotateRange": "Exceeds the -360 to 360 range",
+        "generatePathError": "Route generation error, please contact the administrator",
+        "closeMapMessage": "Closing will discard any unsaved changes.",
+        "removedImageSuccessfully": "Image deleted successfully."
+      }
+    },
+    "gimbalCamera": {
+      "messages": {
+        "gimbalCamera": "Gimbal {action}",
+        "camera": "Camera {action}"
+      }
+    },
+    "uvOrder": {
+      "messages": {
+        "endMissionTitle": "Confirm to End Mission",
+        "endMissionContent": "Will Return to Home",
+        "missionContinuation": "Mission Continuation",
+        "controlUV": "Execute {action} Command",
+        "implementUVOrderTitle": "Confirm Action Execution",
+        "implementUVOrderContent1": "Will Execute",
+        "implementUVOrderContent2": "Command",
+        "implementUVOrderCancel": "Cancel Action",
+        "endMissionSuccess": "Successfully Completed Mission"
+      },
+      "button": {
+        "throw": "Throw",
+        "rtl": "RTL",
+        "auto": "Continue",
+        "land": "Land",
+        "rotate": "Rotate",
+        "loiter": "Pause",
+        "playsound": "Broadcast",
+        "goto": "GoTo",
+        "basicControls": "Controls",
+        "advancedControls": "More",
+        "endTask": "End",
+        "continueMission": "Continue"
+      }
+    },
+    "droneInfo": {
+      "batteryLevel": "Battery",
+      "voltage": "Voltage",
+      "connectionCount": "GPS",
+      "altitude": "Altitude",
+      "speed": "Speed",
+      "longitude": "Longitude",
+      "latitude": "Latitude"
+    }
+  },
+  "weather": {
+    "title": "Weather | Today's Weather",
+    "noData": "No Data",
+    "overview": "Overview",
+    "temp": "Temperature",
+    "rainfall": "Rain Probability",
+    "windSpeed": "Wind Speed",
+    "windDire": "Wind Direction",
+    "location": "Location",
+    "historicalWeather": "Past Weather",
+    "realTimeWeather": "Weather Now"
+  },
+  "vehicleStatus": {
+    "standby": "Standby",
+    "run": "Running",
+    "abnormal": "Abnormal",
+    "offline": "Offline",
+    "return": "Return"
+  },
+  "uvType": {
+    "all": "All",
+    "uav": "UAV",
+    "usv": "USV",
+    "amr": "AMR",
+    "other": "Other"
+  },
+  "taskStatus": {
+    "running": "Running",
+    "completed": "Completed",
+    "waiting": "Waiting",
+    "failed": "Failed",
+    "cancel": "Canceled"
+  },
+  "caseStatus": {
+    "approve": "Approval",
+    "reject": "Reject",
+    "paending": "Pending",
+    "canceled": "Canceled",
+    "executed": "Executed",
+    "cancel": "Cancel"
+  },
+  "enableStatus": {
+    "enabled": "Enable",
+    "disable": "Disable",
+    "all": "All",
+    "on": "On",
+    "off": "Off"
+  },
+  "weekList": {
+    "Mon": "Mon",
+    "Tue": "Tue",
+    "Wed": "Wed",
+    "Thu": "Thu",
+    "Fri": "Fri",
+    "Sat": "Sat",
+    "Sun": "Sun"
+  },
+  "files": {
+    "dropFilesUploadMsg": "Drag or click to select the files you want to upload…",
+    "downloadSuccess": "File download complete | File downloaded successfully!",
+    "downloadFail": "File download failed",
+    "remove": "Delete",
+    "download": "Download",
+    "deleteConfirm": "Are you sure you want to delete the file?",
+    "deleteSuccess": "File deleted",
+    "files": "Files",
+    "SuccessfullyUploaded": "Successfully uploaded",
+    "downloading": "Downloading",
+    "done": "Done"
+  },
+  "button": {
+    "confirm": "Confirm",
+    "loginAgain": "Log in again.",
+    "confirmChange": "Confirm",
+    "confirmAdd": "Confirm",
+    "cancel": "Cancel",
+    "addTask": "Add Task",
+    "addGroup": "Create Group",
+    "addAccount": "Add Account",
+    "addBrand": "Add Brand",
+    "addVehicle": "Add Vehicle",
+    "addPayload": "Add Payload",
+    "addCompany": "Add Company/Individual",
+    "addImage": "Add Image",
+    "addData": "Add Data",
+    "addImageAnalysis": "Add Image Analysis",
+    "addDataMonitor": "Add Data Monitoring",
+    "execute": "Execute",
+    "result": "Result",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "view": "View",
+    "returnList": "Return to List",
+    "executeMission": "Execute Mission",
+    "endMission": "End Mission",
+    "expandAll": "Expand",
+    "collapseAll": "Collapse",
+    "More": "More",
+    "signOut": "Log Out",
+    "uploadMission": "Upload Mission",
+    "save": "Save",
+    "generatePath": "Generate",
+    "continueMission": "Continue",
+    "downloadAll": "Download All",
+    "deleteAll": "Delete All",
+    "download": "Download",
+    "mapView": "Map View",
+    "complete": "Complete",
+    "search": "Search",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish"
+  },
+  "unit": {
+    "timeSec": "Second",
+    "camAngle": "Degree",
+    "distanceMeter": "Meter",
+    "speed": "km/h",
+    "days": "days",
+    "headcount": "members",
+    "points": "Points",
+    "accounts": "Accounts",
+    "groups": "Groups",
+    "devices": "Devices",
+    "cases": "cases",
+    "inspection": "times",
+    "mileage": "km",
+    "hours": "hours",
+    "events": "items"
+  },
+  "inspectionTasks": {
+    "inspectionDate": "Mission Date",
+    "applyNo": "Application Number",
+    "missionName": "Mission Name",
+    "uvType": "Vehicle Type",
+    "uvID": "Vehicle ID",
+    "operateMode": "Mode",
+    "startEndDate": "Start/End Date",
+    "form": {
+      "applyNo": "Application Number",
+      "missionName": "Mission Name",
+      "uvType": "Vehicle Type",
+      "operateMode": "Mission Mode",
+      "endOfAction": "End of Mission Action",
+      "uvID": "Vehicle ID",
+      "brandName": "Vehicle Brand",
+      "modelName": "Vehicle Model",
+      "operator": "Operator",
+      "payloadID": "Payload",
+      "scheduleDate": "Mission Date",
+      "scheduleTime": "Mission Time",
+      "captureMode": "Photo Mode",
+      "imageTask": "Image Tasks",
+      "dataTask": "Data Tasks"
+    },
+    "placeholder": {
+      "missionName": "Please enter the mission name",
+      "uvType": "Please enter the vehicle type | -- Select --",
+      "uvID": "-- Select -- | Please enter the vehicle ID",
+      "operator": "-- Select --",
+      "payloadID": "-- Select --",
+      "scheduleDate": "-- Select -- | -- Select --",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "dueDate": "-- Select --",
+      "applyNo": "Please enter the application number",
+      "captureMode": "-- Select --",
+      "captureParam": "Please enter value",
+      "endOfAction": "-- Select --"
+    },
+    "formRules": {
+      "missionName": "Please enter the mission name",
+      "uvType": "Please enter the vehicle type",
+      "uvID": "Select Vehicle ID from the dropdown",
+      "operator": "Select Task Executor from Dropdown",
+      "payloadID": "Select payload from dropdown",
+      "captureMode": "Please select the photo mode from the dropdown",
+      "captureParam": "Please enter the photo parameters",
+      "taskTimeRange": "Please select the start/end time",
+      "dueDate": "Please select the deadline",
+      "scheduleDate": "Please Select Date | Please select the weekly recurring day(s)"
+    },
+    "captureMode": {
+      "off": "Close",
+      "waypointcap": "Waypoint",
+      "intervalcap": "Timed (Seconds)",
+      "distancecap": "Distance (Meters)"
+    },
+    "vehicleOperaType": {
+      "manual": "Manual",
+      "automatic": "Auto"
+    },
+    "dateRange": {
+      "recurring": "Recurring",
+      "scheduling": "Scheduling"
+    },
+    "messages": {
+      "payloadChangeTitle": "Payload information updated successfully.",
+      "payloadChangeDetail": "Map data needs to be reconfigured.",
+      "selectUVType": "Please select a vehicle type first.",
+      "selectUVID": "Please select a vehicle ID first.",
+      "selectPayload": "Please select a payload first.",
+      "addSuccess": "Mission added successfully.",
+      "addFail": "Failed to add the mission.",
+      "updateSuccess": "Mission updated successfully.",
+      "updateFail": "Failed to update the mission.",
+      "uploadSuccess": "Upload misson command sent successfully.",
+      "uploadFail": "Failed to send upload mission command.",
+      "sendExecSuccess": "Execute command sent successfully.",
+      "sendExecFail": "Failed to send execute command.",
+      "deleteConfirm": "Are you sure you want to delete this task?",
+      "deleteSuccess": "Mission deleted successfully."
+    },
+    "mapSetting": {
+      "mapDataSetting": "Map Settings",
+      "noSet": "Not Set",
+      "missionPathNoSet": "Route Not Set",
+      "missionScope": "Mission Area",
+      "customNoFlyZone": "Custom No-Fly Zone",
+      "flightPathType": "Route Type",
+      "planningScope": "Planning Area",
+      "planningRoute": "Route Planning",
+      "searchAddress": "Please enter keyword or address",
+      "taskScopeTip": "First, enter the altitude, then scroll and click on the map to plan the task area",
+      "nfzTip": "First, enter the altitude, then click to customize the no-fly zone",
+      "pathTypeTip": "Select Route Type",
+      "operateStepTip": "Please save before proceeding to the next step",
+      "scopeNotSetTip": "Mission area not set, please set it first.",
+      "coordinates": "Coordinates",
+      "height": "Flight Altitude (M)",
+      "sideOverlap": "Side Overlap",
+      "fov": "FOV",
+      "intersection": "Double Grid",
+      "speed": "Speed",
+      "delayTime": "Stay",
+      "camAngle": "Camera Angle",
+      "centerPoint": "Center Point",
+      "searchRadius": "Radius (M)",
+      "scanPointS": "Start Point",
+      "scanPointE": "End Point",
+      "maxHeight": "Max Alt (M)",
+      "minHeight": "Min Alt (M)",
+      "sideDistance": "Scan Interval Distance (M)",
+      "circlePointS": "Circle First Point Coordinates",
+      "circlePointE": "Circle Second Point Coordinates",
+      "pointCount": "Waypoint Count",
+      "objectHeight": "Object Height (M)",
+      "maxAltitude": "Max Alt (M)",
+      "minAltitude": "Min Alt (M)",
+      "surroundingPoints": "Waypoint Count",
+      "intersectionResult": "Yes | No",
+      "timelineType": "Resume flight route",
+      "waypoints": "Waypoint Count",
+      "checkpoints": "Checkpoint count"
+    }
+  },
+  "imageTask": {
+    "missionTime": "Task Time",
+    "taskStatus": "Task Status",
+    "imageResource": "Image Source",
+    "taskApplyNo": "Task Order Number",
+    "missionName": "Task Name",
+    "progress": "Task Progress",
+    "missionType": "Task Type",
+    "form": {
+      "missionName": "Task Name",
+      "imageTaskSetting": "Image Task Type",
+      "imageSource": "Image Source",
+      "uploadFile": "From Files",
+      "fromInspecitonRecords": "From Records",
+      "inspectionDate": "Inspection Date",
+      "uvID": "Vehicle ID",
+      "uvName": "Vehicle Name",
+      "startEndDate": "Start/End Date"
+    },
+    "formRules": {
+      "missionName": "Task Name is required!",
+      "imageTaskSetting": "Image Task Type is required!"
+    },
+    "placeholder": {
+      "taskStatus": "-- Select --",
+      "imageResource": "-- Select --",
+      "missionName": "Please enter the task name",
+      "uvID": "Please enter vehicle ID",
+      "missionType": "-- Select --"
+    },
+    "messages": {
+      "createMediaSuccess": "Media space created successfully.",
+      "confirmDeleteAll": "Are you sure you want to delete all media files?",
+      "deleteMediaSuccess": "Media files deleted successfully.",
+      "addTaskSuccess": "Image task added successfully.",
+      "downloadAllSuccess": "All files downloaded successfully.",
+      "execTaskSuccess": "Image task executed successfully.",
+      "execTaskFail": "Failed to execute image task.",
+      "editTaskSuccess": "Image task edited successfully.",
+      "deleteMissionSuccess": "Image task data deleted successfully.",
+      "deleteCancelMission": "Are you sure you want to delete or cancel the task?"
+    }
+  },
+  "dataTask": {
+    "missionTime": "Task Time",
+    "missionName": "Task Name",
+    "taskStatus": "Task Status",
+    "dataResource": "Data Source",
+    "taskApplyNo": "Task Order Number",
+    "progress": "Task Progress",
+    "missionType": "Task Type",
+    "form": {
+      "missionName": "Task Name",
+      "threshold": "Threshold",
+      "dataTaskSettings": "Data Task Type",
+      "dataResource": "Data Source",
+      "uploadFile": "From Files",
+      "fromInspecitonRecords": "From Records",
+      "inspectionDate": "Inspection Date",
+      "uvID": "Vehicle ID",
+      "uvName": "Vehicle Name",
+      "startEndDate": "Start/End Date"
+    },
+    "formRules": {
+      "missionName": "Task Name is required!",
+      "dataTaskSettings": "Data Task Type is required!"
+    },
+    "placeholder": {
+      "taskStatus": "-- Select --",
+      "imageResource": "-- Select --",
+      "missionName": "Please enter the task name",
+      "threshold": "Please Enter Threshold",
+      "uvID": "Please Enter Vehicle ID",
+      "missionType": "-- Select --"
+    },
+    "messages": {
+      "createMediaSuccess": "Media space created successfully.",
+      "confirmDeleteAll": "Are you sure you want to delete all media files?",
+      "deleteMediaSuccess": "Media files deleted successfully.",
+      "addTaskSuccess": "Data task added successfully.",
+      "downloadAllSuccess": "All files downloaded successfully.",
+      "execTaskSuccess": "Data task executed successfully.",
+      "execTaskFail": "Failed to execute data task.",
+      "editTaskSuccess": "Data task edited successfully.",
+      "deleteMissionSuccess": "Data task data deleted successfully.",
+      "deleteCancelMission": "Are you sure you want to delete or cancel the task?"
+    }
+  },
+  "inspectionTasksRecords": {
+    "missionTitle": "Information",
+    "missionName": "Mission Name",
+    "inspectionDate": "Inspection Date",
+    "uvID": "Vehicle ID",
+    "vehicleName": "Vehicle Name",
+    "startEndDate": "Start/End Date",
+    "duration": "Duration (s)",
+    "distance": "Distance (m)",
+    "event": "Events",
+    "quantity": "Processing quantity",
+    "time": "Processing time (seconds)",
+    "summary": "Summary",
+    "advanceFilter": "Advanced Search",
+    "placeholder": {
+      "missionName": "Please enter the mission name",
+      "uvID": "Please Enter Vehicle ID",
+      "remark": "Please enter notes"
+    },
+    "messages": {
+      "noEventRecord": "No Events",
+      "noEventImg": "No Events",
+      "confirmDelete": "Are you sure you want to delete the record?",
+      "deleteSuccess": "Record deleted successfully!",
+      "updateRemarkSuccess": "Notes updated successfully!"
+    }
+  },
+  "companyMaintain": {
+    "guiNumber": "Company Tax ID/ID Number",
+    "companyName": "Company/Individual Name",
+    "expireDate": "Authorization Period",
+    "form": {
+      "guiNumber": "Company Tax ID/ID Number",
+      "companyName": "Company/Individual Name",
+      "compAdminEmail": "Administrator Account",
+      "expireDate": "Authorization Period",
+      "storageSpace": "Available Space",
+      "authorizeAccountNum": "Account Limits",
+      "authorizeVehicleNum": "Vehicle Limits",
+      "authorizeGroupNum": "Group Limits",
+      "setPermissions": "Permissions",
+      "authorizeGPU": "GPU Availability"
+    },
+    "formRules": {
+      "guiNumber": "Company Tax ID or ID Number is required.",
+      "companyName": "Company or individual name is required.",
+      "compAdminEmail": "Administrator account is required.",
+      "emailFormat": "Must be in email format.",
+      "expireDate": "Authorization expiration date is required.",
+      "storageSpace": "Please enter the available space size.",
+      "authorizeAccountNum": "Please enter the number of accounts that can be created.",
+      "authorizeVehicleNum": "Please enter the number of vehicles that can be created.",
+      "authorizeGroupNum": "Please enter the number of groups that can be created.",
+      "setPermissions": "Please select at least one functional permission.",
+      "authorizeGPU": "Please enter the available GPU capacity."
+    },
+    "placeholder": {
+      "guiNumber": "Please enter Tax ID or ID Number",
+      "companyName": "Please enter the company/individual name",
+      "compAdminEmail": "Assign Administrator Account",
+      "compAdminEmailDDL": "-- Select --",
+      "expireDate": "Set Expiry Date",
+      "resetManageAccount": "Reset Administrator Account",
+      "selectAuthorization": "Select Authorization"
+    },
+    "messages": {
+      "noUserData": "No available user accounts.",
+      "createSuccessfully": "Customer information added successfully.",
+      "failCreate": "Failed to add customer information.",
+      "updateSuccessfully": "Customer information updated successfully.",
+      "failUpdate": "Failed to update customer information."
+    }
+  },
+  "companyInfo": {
+    "numberID": "Company Tax ID/ID Number",
+    "name": "Company/Individual Name",
+    "authorizationUsagePeriod": "Expiration Date",
+    "remaining": "Remaining",
+    "storageSpace": "Available Storage Space",
+    "canAccountNumber": "Number of Accounts Allowed",
+    "createdAccount": "Number of Accounts Created",
+    "canVehiclesNumber": "Number of Vehicles Allowed",
+    "createdVehicles": "Number of Vehicles Created",
+    "canGroupsNumber": "Number of Groups Allowed",
+    "createdGroups": "Number of Groups Created",
+    "authorizeGPU": "GPU Usage",
+    "used": "Used",
+    "adminPermissions": "Admin Permissions",
+    "userPermissions": "User Permissions",
+    "authItem": "Authorization Item"
+  },
+  "brandModelMaintain": {
+    "model": "Model",
+    "vehicleType": "Vehicle Type",
+    "form": {
+      "brandInfoTitle": "Brand Information",
+      "logo": "Brand Logo",
+      "brandName": "Brand Name",
+      "vehicleModelTitle": "Model",
+      "modelImage": "Model Image",
+      "vehicleName": "Model Name",
+      "vehicleType": "Vehicle Type",
+      "optionInfo": {
+        "title": "Model Spec",
+        "navigation": "Navigation Mode",
+        "power": "Power Type",
+        "remoteControl": "RC Mode / Freq",
+        "height": "Vehicle Height",
+        "length": "Vehicle Length",
+        "width": "Vehicle Width",
+        "MTOW": "MTOW",
+        "maxSpeed": "Maximum Speed"
+      },
+      "gimbalCameraCtrl": {
+        "title": "Gimbal Camera Controls",
+        "gimbPitch": "Gimbal Pitch",
+        "gimbYaw": "Gimbal Yaw",
+        "gimbHome": "Gimbal Reset",
+        "capture": "Photo Capture",
+        "video": "Video Recording",
+        "zoom": "Camera Zoom",
+        "zoomReset": "Camera Reset"
+      },
+      "basicCtrl": {
+        "title": "Basic Controls",
+        "rtl": "RTL",
+        "land": "Land",
+        "rotate": "Rotate",
+        "loiter": "Pause"
+      },
+      "advancedCtrl": {
+        "title": "Advanced Controls",
+        "throw": "Throw",
+        "playsound": "Broadcast"
+      }
+    },
+    "placeholder": {
+      "brandName": "Please enter the brand name",
+      "vehicleName": "Please enter model name",
+      "vehicleType": "-- Select --",
+      "navigation": "-- Select --",
+      "power": "-- Select --",
+      "remoteControl": "-- Select --",
+      "brandLogoRecommend": "Recommended Monochrome Background Removal Size {width} x {height} (PNG/JPG)",
+      "modelImgRecommend": "Recommended Size {width} x {height} (PNG/JPG)",
+      "moreOptionalInformation": "More"
+    },
+    "navigationOptions": {
+      "satellite": "Satellite",
+      "inertialNavigation": "Inertial Navigation",
+      "vision": "Vision",
+      "satelliteAndVision": "Satellite/Vision",
+      "satelliteAndinertialNavigation": "Satellite/Inertial Navigation",
+      "mixAll": "Satellite/Vision/Inertial Navigation",
+      "none": "None"
+    },
+    "powerOptions": {
+      "fuel": "Fuel",
+      "woodSpirit": "Wood Spirit",
+      "battery": "Battery",
+      "hybrid": "Hybrid",
+      "none": "None"
+    },
+    "remoteControlOptions": {
+      "wifi": "WiFi",
+      "mobileCommunication": "3G/4G/5G",
+      "analog": "Analog",
+      "infrared": "Infrared",
+      "bluetooth": "Bluetooth"
+    },
+    "messages": {
+      "addBrandSuccess": "Brand added successfully.",
+      "editBrandSuccess": "Brand edited successfully.",
+      "editBrandFail": "Failed to edit brand.",
+      "confirmDelMsgTitle": "Delete",
+      "deleteBrandSuccess": "Brand deleted successfully.",
+      "addModelSuccess": "Model added successfully.",
+      "inputNotify": "Please enter the model/type of the new vehicle.",
+      "editModelSuccess": "Model edited successfully.",
+      "editModelFail": "Failed to edit model.",
+      "confirmModelDelete": "Confirm delete model?",
+      "deleteModelSuccess": "Model deleted successfully."
+    }
+  },
+  "payloadManage": {
+    "payloadName": "Payload Name",
+    "form": {
+      "payloadName": "Payload Name",
+      "maxFocalLength": "Maximum Focal Length",
+      "minFocalLength": "Minimum Focal Length",
+      "maxAperture": "Maximum Aperture",
+      "minAperture": "Minimum Aperture",
+      "maxFOV": "Maximum Field of View",
+      "minFOV": "Field of View",
+      "resolutionLength": "Resolution Length",
+      "resolutionWidth": "Resolution Width"
+    },
+    "rules": {
+      "payloadName": "Payload name is required!"
+    },
+    "placeholder": {
+      "payloadName": "Please enter the payload name",
+      "maxFocalLength": "Please enter the maximum focal length",
+      "minFocalLength": "Please enter the minimum focal length",
+      "maxAperture": "Please enter the maximum aperture",
+      "minAperture": "Please enter the minimum aperture",
+      "maxFOV": "Please enter the maximum field of view",
+      "minFOV": "Please enter the field of view",
+      "resolutionLength": "Please enter the resolution length",
+      "resolutionWidth": "Please enter the resolution width"
+    },
+    "messages": {
+      "addPayloadSuccess": "Payload added successfully!",
+      "editPayloadSuccess": "Payload edited successfully!",
+      "deletePayloadSuccess": "Payload deleted successfully!"
+    }
+  },
+  "vehicleMaintain": {
+    "vehicleNumber": "Vehicle ID",
+    "vehicleType": "Vehicle Type",
+    "status": "Status",
+    "missionName": "Mission Name",
+    "vehicleName": "Vehicle Name",
+    "owner": "Owner",
+    "operator": "Operator",
+    "odometer": "ODO (km)",
+    "totalFlightTime": "Flight Hours",
+    "form": {
+      "vehicleType": "Vehicle Type",
+      "vehicleName": "Vehicle Name",
+      "serialNumber": "Vehicle Serial Number",
+      "vehicleModel": "Vehicle Model",
+      "defaultPayload": "Default Payload",
+      "vehicleNumber": "Vehicle ID",
+      "vehicleIP": "Vehicle IP",
+      "vehicleBrand": "Vehicle Brand",
+      "owner": "Owner",
+      "rtsp": "RTSP URL",
+      "rtmp": "RTMP URL",
+      "description": "Description",
+      "odometer": "ODO (km)",
+      "totalFlightTime": "Flight Hours"
+    },
+    "placeholder": {
+      "vehicleType": "-- Select --",
+      "status": "-- Select --",
+      "vehicleName": "Please fill in the vehicle name",
+      "serialNumber": "Please fill in the vehicle serial number",
+      "vehicleModel": "-- Select --",
+      "defaultPayload": "-- Select --",
+      "vehicleNumber": "Please fill in the vehicle ID",
+      "vehicleIP": "Please fill in the vehicle IP",
+      "vehicleBrand": "-- Select --",
+      "owner": "-- Select --",
+      "uvID": "Please enter vehicle ID"
+    },
+    "messages": {
+      "addSuccess": "Vehicle added successfully.",
+      "addFail": "Failed to add vehicle.",
+      "updateSuccess": "Vehicle updated successfully.",
+      "updateFail": "Failed to update vehicle.",
+      "deleteVehicle": "Are you sure you want to delete the vehicle?",
+      "deleteVehicleSuccess": "Vehicle deleted successfully.",
+      "missionIncorrect": "The mission information for this vehicle is incorrect."
+    },
+    "button": {
+      "allList": "List View",
+      "mapOverview": "Map View"
+    }
+  },
+  "groupMaintain": {
+    "createdGroup": "Groups Created",
+    "defaultGroup": "Default Group",
+    "lineBinding": "LINE Binding",
+    "memberNumber": "Number of Members",
+    "successfully": "Successfully Linked | Linked",
+    "notYetBound": "Not Yet",
+    "form": {
+      "groupName": "Group",
+      "lineBinding": "LINE Binding",
+      "goBinding": "Go to Bind",
+      "unbind": "Unbind"
+    },
+    "placeholder": {
+      "groupName": "Please enter the group name"
+    },
+    "formRules": {
+      "groupName": "Please enter the group name"
+    },
+    "messages": {
+      "overMaximum": "You have reached the maximum number of groups allowed.",
+      "createSuccessfully": "Group created successfully.",
+      "failCreate": "Failed to create the group.",
+      "updateSuccessfully": "Group updated successfully.",
+      "failUpdate": "Failed to update group.",
+      "confirmDelete": "Are you sure you want to delete this group?",
+      "failDelete": "Failed to delete the group.",
+      "checkDeleteMsg": "Unable to delete the current group.",
+      "deleteSuccessfully": "Group deleted successfully.",
+      "confirmUnbind": "Are you sure you want to unbind this account?",
+      "unbindSuccessfully": "Unbinding completed successfully.",
+      "failUnbind": "Failed to unbind."
+    }
+  },
+  "accountMaintain": {
+    "authorizationQuantity": "Authorization Quantity",
+    "includeCompanyAdmin": "Including company administrators",
+    "enterpriseAdministrator": "Admin",
+    "systemAdministrator": "System Admin",
+    "EnterpriseUser": "User",
+    "form": {
+      "role": "Role",
+      "accountName": "Account",
+      "group": "Group",
+      "description": "Description"
+    },
+    "placeholder": {
+      "role": "-- Select --",
+      "accountName": "Please enter google account",
+      "group": "-- Select --"
+    },
+    "formRules": {
+      "role": "Role is required!",
+      "accountName": "Account is required! | Must be in google account!",
+      "group": "Please select at least one group!"
+    },
+    "messages": {
+      "overMaximum": "Maximum number of accounts reached.",
+      "createSuccessfully": "Account added successfully.",
+      "failAdd": "Failed to add the account.",
+      "updateSuccessfully": "Account updated successfully.",
+      "failUpdate": "Failed to update account.",
+      "minimumLimit": "The number of authorized accounts must be at least one.",
+      "confirmDelete": "Are you sure you want to delete this account?",
+      "deleteSuccessfully": "Account deleted successfully.",
+      "failDelete": "Failed to delete the account.",
+      "deletionProhibited": "Removing the system default group is not allowed.",
+      "unableRemoveCurrent": "Unable to remove the current group."
+    }
+  },
+  "intelligentFunctionImage": {
+    "imgAnalysisID": "Image Analysis Feature ID",
+    "imgAnalysisName": "Image Analysis Feature Name",
+    "status": "Status",
+    "placeholder": {
+      "imgAnalysisID": "Please enter the image analysis feature ID",
+      "imgAnalysisName": "Please enter the image analysis name",
+      "status": "-- Select --"
+    },
+    "messages": {
+      "addSuccess": "Image analysis added successfully!",
+      "updateSuccess": "Image analysis edited successfully!",
+      "invalidFormat": "Please enter the correct format!"
+    }
+  },
+  "intelligentFunctionData": {
+    "dataMonitoringID": "Data Monitoring Function ID",
+    "dataMonitoringName": "Data Monitoring Function Name",
+    "status": "Status",
+    "placeholder": {
+      "dataMonitoringID": "Please enter the data monitoring function ID",
+      "dataMonitoringName": "Please enter the data monitoring function name",
+      "status": "-- Select --"
+    },
+    "messages": {
+      "addSuccess": "Data monitoring added successfully!",
+      "updateSuccess": "Data monitoring edited successfully!",
+      "invalidFormat": "Please enter the correct format!"
+    }
+  },
+  "dashboard": {
+    "customerStatus": {
+      "title": "Customer Status",
+      "inUse": "Active",
+      "willExpire": "Expiring",
+      "expired": "Expired",
+      "total": "Total"
+    },
+    "supportedDevices": {
+      "title": "Supported Vehicles",
+      "totalBrand": "Brands",
+      "totalModel": "Models"
+    },
+    "resourceStatistics": {
+      "title": "Resource Overview",
+      "storage": "Storage",
+      "gpu": "GPU",
+      "account": "Account",
+      "group": "Group",
+      "uv": "Vehicle",
+      "aboutTotal": "Total"
+    },
+    "vehicleStatus": {
+      "title": "Vehicle Status",
+      "total": "Total"
+    },
+    "inspectionStatistics": {
+      "dateRangeDDL": {
+        "thisMonth": "This Month",
+        "pastThreeMonth": "Last 3 Months",
+        "thisYear": "This Year",
+        "pastYear": "Last 12 Months"
+      },
+      "title": "Inspection Overview",
+      "totalMission": "Missions",
+      "totalInspection": "Records",
+      "odometer": "Odometer",
+      "totalTime": "Runtime",
+      "totalEvent": "Events"
+    },
+    "systemMessage": {
+      "title": "System Messages",
+      "noData": "No system messages"
+    }
+  },
+  "common": {
+    "live": "Live",
+    "media": "Media",
+    "record": "Record"
+  },
+  "eventDialog": {
+    "picture": "Event Photos",
+    "time": "Time",
+    "longitude": "Longitude",
+    "latitude": "Latitude"
+  },
+  "tip": {
+    "delSuccess": "Task deleted successfully",
+    "resetPerspective": "Reset",
+    "enlarge": "Zoom In",
+    "zoomOut": "Zoom Out"
+  },
+  "streaming": "Live",
+  "management": "Actions",
+  "explanation": "Explanation",
+  "remarks": "Remarks",
+  "enterKeywords": "Please enter",
+  "noData": "No data",
+  "hide": "Hide",
+  "multiSelect": "Multiple selection",
+  "optional": "Optional | Optional",
+  "list": "List",
+  "select": "Please select",
+  "options": "Options",
+  "set": "Set",
+  "notSet": "Not Set",
+  "none": "None",
+  "noMoreData": "No more data"
+}
