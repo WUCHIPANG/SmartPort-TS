@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json",
+    "lint": "eslint . --ext .ts,.tsx,.vue --max-warnings=0",
+    "lint:fix": "eslint . --ext .ts,.tsx,.vue --fix"
   },
   "dependencies": {
     "axios": "^1.11.0",
