@@ -32,11 +32,12 @@ npm run build
 
 # 本機預覽打包結果
 npm run preview
-
+``` 
 
 
 ## 📁 專案結構（節錄）
 
+```bash
 .
 ├─ .vscode/                     # 編輯器設定（可選）
 ├─ locales/                     # ★ i18n 中心（放在專案根）
@@ -79,3 +80,4 @@ npm run preview
 ├─ tsconfig.node.json
 ├─ vite.config.ts               # Vite 設定（alias/auto-import/components/proxy）
 └─ README.md
+``` 
