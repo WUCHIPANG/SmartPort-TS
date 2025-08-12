@@ -1,19 +1,24 @@
-import { defineConfig } from 'eslint/config'
-import vue from 'eslint-plugin-vue'
 import js from '@eslint/js'
-import globals from 'globals'
+import vue from 'eslint-plugin-vue'
 import vueParser from 'vue-eslint-parser'
-import babelParser from '@babel/eslint-parser'
+import tseslint from 'typescript-eslint'
+import globals from 'globals'
 
 export default defineConfig([
+  { ignores: ['dist', 'node_modules'] },
+  // JS 推薦規則
+  js.configs.recommended,
+  // Vue 推薦規則（flat 版）
+  ...vue.configs['flat/recommended'],
   {
     files: ['**/*.{js,cjs,mjs,ts,vue}'],
     languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
       parser: vueParser, // ✅ 傳入實際的 module，而不是字串
       parserOptions: {
-        parser: babelParser, // ✅ 同樣傳入 module，而不是字串
+        parser: tseslint.parser, // 再交給 TS parser 處理 <script lang="ts">
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        extraFileExtensions: ['.vue'],
         ecmaFeatures: {
           jsx: true,
         },
@@ -22,14 +27,11 @@ export default defineConfig([
       globals: {
         ...globals.browser,
         ...globals.node,
-        defineProps: 'readonly',
-        defineEmits: 'readonly',
-        defineExpose: 'readonly',
-        withDefaults: 'readonly',
       },
     },
     plugins: {
       vue,
+      '@typescript-eslint': tseslint.plugin,
     },
     rules: {
       'no-console': process.env.VITE_NODE_ENV === 'production' ? 'error' : 'off',
