@@ -1,0 +1,8 @@
+@import 'custom.css';
+@import 'RecordsInfo.css';
+@import 'mobile.css';
+@import 'uploadDataModelRecord.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

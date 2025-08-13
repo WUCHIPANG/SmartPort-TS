@@ -24,16 +24,13 @@ class StorageProxy {
    * - 空字串/不存在：''（空字串）
    * - 解析失敗：null
    */
-  getItem<T = unknown>(key: string): T | '' | null {
-    if (!key) return null
-    let data = this.storage.getItem(key)
-
-    if (data === '' || data == null || JSON.stringify(data) === '{}') {
-      return '' as ''
-    }
-
+  getItem<T>(key: string): T | null {
+    const raw = this.storage.getItem(key)
+    if (!raw) return null
     try {
-      return JSON.parse(data) as T
+      const parsed = JSON.parse(raw)
+      if (parsed === '' || parsed == null) return null
+      return parsed as T
     } catch {
       return null
     }

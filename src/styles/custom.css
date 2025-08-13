@@ -1,0 +1,483 @@
+/* TailwindCSS */
+@layer base {
+    body {
+        /* @apply overflow-hidden */
+    }
+}
+@layer components {
+    /* 垂直置中 */
+    .yCenter {
+        @apply top-1/2 -translate-y-1/2;
+    }
+    /* 水平置中 */
+    .xCenter {
+        @apply left-1/2 -translate-x-1/2;
+    }
+
+    /* ---- header ---- */
+    /* 身分 選單 去除背景色及Padding */
+    .role-drop:not(.is-disabled) {
+        @apply p-0 bg-none;
+    }
+    /* 更改Radio Button顏色 */
+    .role-drop .el-radio.is-bordered.is-checked {
+        @apply bg-[#409EFF];
+    }
+
+    .role-drop .el-radio__input.is-checked + .el-radio__label {
+        @apply text-white;
+    }
+    .roleRadio .el-radio__inner::after {
+        @apply bg-[#409EFF];
+    }
+    .roleRadio .el-radio__input.is-checked .el-radio__inner {
+        @apply border-white bg-white;
+    }
+
+    /* 更改 Select 顏色 */
+    .roleSelect .select-trigger .el-input .el-input__wrapper {
+        @apply bg-[#409EFF];
+    }
+    .roleSelect .select-trigger .el-input .el-input__wrapper .el-input__inner {
+        @apply text-white text-base ml-2 text-ellipsis whitespace-nowrap;
+    }
+    .roleSelect .select-trigger .el-input .el-input__wrapper .el-icon {
+        @apply text-white;
+    }
+    /* ---- menu ---- */
+    .menu-font {
+        @apply text-base font-medium leading-6;
+    }
+
+    /* ---- TaskMenu ---- */
+    /* 次選單寬度 */
+    .task-menu .el-menu .el-submenu,
+    .task-menu .el-menu--popup {
+        width: 100vh !important;
+    }
+    /* 次選單Button */
+    .task-sub-menu {
+        position: absolute !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+    .task-sub-menu ul {
+        width: 100% !important;
+        padding: 0px !important;
+        position: absolute !important;
+        top: -6px !important;
+    }
+    /* card click 不要有黑框線 */
+    .el-card__body:focus-visible,
+    .el-card:focus-visible {
+        outline: unset;
+    }
+
+    /* ---- Battery ---- */
+    .batteryShape {
+        @apply relative w-[38px] h-[23px] rounded-md border-[3px] border-[#DDDDDD] bg-[#6A6A6A];
+    }
+    .batteryShape::before {
+        content: '';
+        @apply absolute top-1/2 -right-2 ml-[2px] w-[8px] h-3 bg-[#DDDDDD] -translate-y-2/4;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .batteryShape::after {
+        content: '';
+        @apply absolute top-0 left-0 w-full h-1/2;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .level {
+        @apply absolute top-0 right-0 bottom-0 left-0 rounded-[3px] overflow-hidden;
+    }
+    .percentage {
+        @apply absolute top-0 left-0 h-full w-1/2 bg-[#00DB99];
+    }
+    .percent {
+        @apply absolute transform top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-white font-bold text-xs;
+    }
+
+    /* ---- Page Titel ---- */
+    .pageTitle {
+        @apply absolute z-10 text-lg text-white top-10 left-1/2 drop-shadow-xl translate-x-[-50%];
+    }
+
+    /* ---- Swiper ---- */
+    /* 左右切換的Bar */
+    .swiperLineBar {
+        @apply absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0) 46.18%);
+    }
+    /* 範圍搜尋 指點搜尋背景 */
+    .searchBlueBtn {
+        box-shadow: 4px 0px 12px 4px #4767b91f inset;
+    }
+    .searchGreenBtn {
+        box-shadow: -8px 0px 12px -4px #5eb9471f inset;
+        /* box-shadow: 4px 0px 8px -4px #66AA5B1F inset; */
+    }
+
+    .swiperItem {
+        transition: 0.2s linear;
+    }
+
+    /* ---- Video ---- */
+    .liveVideo,
+    .openIn {
+        transition: 0.3s linear;
+    }
+    .videoChange {
+        transition: 0.1s linear;
+    }
+    /* 串流放大的按鈕 */
+    .useButton {
+        /* border: none !important; */
+    }
+
+    /* ---- Weather ---- */
+    .wetherButton:hover {
+        color: black !important;
+        border-color: white !important;
+    }
+    .wetherButton:focus {
+        color: black !important;
+    }
+    /* ---- Event Box shadow ---- */
+    .eventBoxShadow {
+        box-shadow: 0px 56px 64px -16px #00000099;
+    }
+    /* ---- 共用 ---- */
+    .inputShadow {
+        box-shadow: 1px 1px 2px 0px #00000014 inset;
+    }
+
+    /* ---- Event Dialog ---- */
+    .eventDialog .el-dialog__header {
+        margin-right: 0px;
+        font-weight: bolder;
+    }
+    .eventDialog .el-dialog__body {
+        padding-top: 0px !important;
+    }
+    .eventDialog .el-button {
+        width: 158px;
+        height: 40px;
+    }
+
+    /* ---- Element Message Box ---- */
+    .btn-danger {
+        background-color: #f56c6c !important;
+    }
+
+    /* inspectionTasks */
+    .header-border {
+        box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.25);
+    }
+
+    /* 更改scrollbar樣式 */
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    ::-webkit-scrollbar-track-piece {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: #00000033;
+        border: 1px solid white;
+    }
+    ::-webkit-scrollbar-track {
+        box-shadow: transparent;
+    }
+    /* 自主移動機器人 任務陰影 */
+    .botTaskShadow {
+        background: linear-gradient(92.47deg, rgba(156, 156, 156, 0.2) 29.26%, rgba(255, 255, 255, 0) 96.78%);
+        /* box-shadow: 10px 0 -5px linear-gradient(92.47deg, rgba(156, 156, 156, 0.2) 29.26%, rgba(255, 255, 255, 0) 96.78%) */
+    }
+    /* 機器人 */
+    .line-style {
+        background: red;
+        z-index: 100;
+        height: 1px;
+    }
+    /* 自主機器人 執行中框 */
+    .implement {
+        @apply w-[92px] h-[52px] flex justify-center items-center relative my-4 mx-7 rounded text-xl font-semibold cursor-pointer;
+    }
+    /*箭頭上-邊框*/
+    .implement .arrow_t_out {
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        @apply w-0 h-0 absolute -top-6 left-8;
+    }
+
+    /* 巡檢任務 查詢 */
+    .taskLabel {
+        @apply h-12 text-sm flex justify-start items-center w-[15%];
+    }
+    .taskContent {
+        @apply h-12 bg-[#FAFAFA] rounded-sm w-[75%] flex items-center;
+    }
+    .taskTag {
+        @apply w-[75%] flex flex-wrap mt-1;
+    }
+    .taskContent .taskInput {
+        @apply pl-4 text-sm;
+    }
+    .tooltipBtn .el-button {
+        @apply bg-white border-grey-30;
+    }
+
+    /* 深藍底白字 */
+    .bgBlueVehicle {
+        @apply bg-[#3B4B74] rounded-sm p-[6px] text-white text-sm;
+    }
+    .bgGreenVehicle {
+        @apply bg-[#439F51] rounded-sm p-[6px] text-white text-sm;
+    }
+
+    .mapDataSetBtn {
+        @apply text-sm border border-grey-30 w-full h-12 mt-2 px-2 py-1 rounded-sm flex justify-center items-center cursor-pointer;
+    }
+    /* 檢視 任務按鈕 */
+    .taskBtn .cancel {
+        @apply bg-grey-60 text-white;
+    }
+    .taskBtn .upload {
+        @apply bg-primary text-white;
+    }
+    .taskBtn .run {
+        @apply bg-[#007DFF] text-white;
+    }
+
+    /* 審核按鈕 */
+    .reviewBtn {
+        @apply w-[120px] p-[6px] rounded-full text-white font-semibold;
+    }
+    /* list button style */
+    .bg_btn .el-button {
+        @apply bg-white border-none px-[10px] mx-1;
+    }
+    .bg_btn .el-button:hover {
+        @apply border-none;
+    }
+    /* 拖曳上傳檔案 */
+    .uploadFile .el-upload {
+        @apply w-full;
+    }
+    .uploadFile .el-upload-dragger {
+        @apply w-full h-[410px] flex justify-center items-center;
+    }
+
+    /* 新增編輯頁面 底部按鈕 */
+    .subPageBtn {
+        @apply w-full h-16 border-t border-grey-30 flex justify-center items-center mt-auto;
+    }
+
+    .droneEditBtn {
+        box-shadow: 0px 16px 16px -8px #00000029;
+    }
+    .editCard {
+        box-shadow: 0px 20px 32px 0px #00000033;
+    }
+    .swiperCardControl {
+        box-shadow: 0px 4px 8px -4px #00000040;
+    }
+
+    .popoverShadow {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* box-shadow: 0px 0px 15px 10px #00000033; */
+    }
+    .analysisShadow {
+        box-shadow: 0px 16px 20px -4px #00000040;
+    }
+
+    .brandEditShadow {
+        box-shadow: 0px 32px 32px -8px #00000040;
+    }
+
+    /* 載具雲台 & 相機控制 */
+    .uvContrul button {
+        @apply hover:scale-110 active:scale-100;
+    }
+    .uvContrul img {
+        display: inline;
+    }
+    .horn {
+        @apply rounded-lg border-[6px] border-transparent bg-transparent;
+    }
+    .steeringWheel {
+        @apply bg-black/50;
+    }
+
+    .steeringWheel-enter,
+    .steeringWheel-leave-to {
+        transform: translateX(-100%);
+    }
+
+    .steeringWheel-enter-to,
+    .steeringWheel-leave {
+        transform: translateX(0);
+    }
+
+    /* 新增巡檢任務：新增任務步驟按鈕 */
+    .stepBtn {
+        @apply p-3 bg-white/20 text-white/70 rounded font-medium backdrop-blur;
+    }
+    .stepBtn i {
+        @apply mr-2;
+    }
+    .stepBtnHighlight {
+        @apply bg-white text-black border-4 drop-shadow-2xl;
+    }
+    .actionStep {
+        @apply border-4 border-primary/30;
+    }
+
+    .promptDark {
+        animation-name: shineDark;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes shineDark {
+        0% {
+            box-shadow: 0;
+        }
+        50% {
+            box-shadow: 0 0 5px 1px #666;
+        }
+        100% {
+            box-shadow: 0;
+        }
+    }
+
+    .promptLight {
+        animation-name: shineLight;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes shineLight {
+        0% {
+            box-shadow: 0;
+        }
+        50% {
+            box-shadow: 0 0 8px 1px #fff;
+        }
+        100% {
+            box-shadow: 0;
+        }
+    }
+
+    /* 新增巡檢任務：Search Location */
+    .searchLabel {
+        color: #d9d9d9;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: -60px;
+        transform: translateY(6px);
+        cursor: pointer;
+    }
+    .mapSearch .icon-search:before {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(90%, 195%);
+    }
+    .searchPlace {
+        width: 48px;
+        height: 48px;
+        background-color: #0000004d;
+        border-radius: 100%;
+        cursor: pointer;
+        text-align: left;
+        position: absolute;
+        right: -45px;
+        top: 0px;
+        transition: 0.2s;
+    }
+    .searchPlace:hover {
+        background-color: #ffffff29;
+        border: 2px solid #ffffff4d;
+    }
+    .searchPlace:focus {
+        width: 350px;
+        border-radius: 20px;
+        padding-left: 12px;
+        cursor: text;
+    }
+    .searchPlaceHasValue {
+        width: 350px;
+        border-radius: 20px;
+        padding-left: 12px;
+        cursor: text;
+    }
+
+    /* 新增巡檢任務：路線設定 */
+    .pointFormSet {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: row !important;
+    }
+    .pointFormSet label {
+        margin-bottom: 0px !important;
+        padding: 2px 6.5px !important;
+        line-height: 1 !important;
+        height: 22px !important;
+        border-width: 3px;
+        border-color: '#E4E7ED';
+        border-radius: 3px;
+    }
+    .pointFormSet .el-textarea__inner {
+        box-shadow: none !important;
+        white-space: pre-wrap;
+    }
+    .pointFormSet .el-form-item__content {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+    .validateMsgStyle label {
+        @apply text-danger font-black;
+    }
+    .setPathLabel .el-form-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .setPathLabel .el-form-item__content {
+        width: 100%;
+    }
+
+    /* 載具監看：轉頁按鈕 */
+    .previousPageBtn {
+        display: block;
+        padding: 12px 20px;
+        color: #409eff;
+        background: #ecf5ff;
+        border-radius: 50px;
+        border: 2px solid #9fceff;
+    }
+
+    /* 載具監看：載具即時訊息 */
+    .uvRealTimeInfo .optionStyle {
+        padding: 16px 8px;
+    }
+    /* 巡檢設定 */
+    .buttonShadows {
+        box-shadow: 0px 0px 10px 0px #ffffff80;
+    }
+    /* 下拉選單高度 */
+    .custom-select-h .el-input {
+        height: 48px;
+    }
+    /* 移除 Datepicker 小月曆icon*/
+    .el-date-editor .el-icon {
+        display: none;
+    }
+}

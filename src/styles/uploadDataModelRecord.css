@@ -1,0 +1,8 @@
+@layer components {
+  .tableStyle {
+    @apply border-l py-[14px] pl-3
+  }
+  .scrollStyle {
+    @apply relative mr-[-6.5px] pr-[-6.5px]
+  }
+}

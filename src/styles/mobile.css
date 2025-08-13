@@ -1,0 +1,58 @@
+@layer components {
+    .bottomSwiper {
+        box-shadow: 0px -16px 24px 0px #26262680;
+    }
+    .mobileTitle {
+        @apply absolute z-10 text-white top-4 right-5 bg-[#666666]/60 backdrop-blur-md rounded flex items-center;
+    }
+    .mobileFunBtn {
+        @apply w-10 h-10 rounded-sm flex justify-center items-center bg-white;
+    }
+    .mobileFunBtnAction {
+        @apply bg-[#0038FF] text-white border-2 border-[#6688FF] shadow-sm;
+    }
+    /* 巡檢事件元件 Swiper 用 */
+    .eventContentSwiper .swiper {
+        @apply mx-0;
+    }
+    .eventListSwiper {
+        @apply p-2 bg-white;
+    }
+    .eventListSwiper .swiper-pagination {
+        @apply static;
+    }
+    .eventListSwiper .swiper-slide-thumb-active {
+        @apply border-2 border-[#EAAB3680]/50;
+    }
+    /* 巡檢紀錄Summary */
+    .summaryShadow {
+        .backdrop-filter: blur(4px);
+        box-shadow: 0px 8px 16px 0px #00000040;
+    }
+}
+/* Date picker 樣式for 手機版 */
+@media screen and (max-width: 500px) {
+    .el-picker-panel__sidebar {
+        width: 100%;
+    }
+    .el-picker-panel {
+        width: 400px !important;
+    }
+    .el-picker-panel__content {
+        width: 100% !important;
+    }
+    .el-picker-panel__body {
+        margin-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        min-width: auto !important;
+    }
+    .el-picker-panel__sidebar {
+        position: relative;
+    }
+    .el-picker-panel__body-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

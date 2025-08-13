@@ -1,23 +1,27 @@
-import type { RouteRecordRaw } from 'vue-router'
+import config from '@/config'
 
-const routes: RouteRecordRaw[] = [
+// 系統路由
+const routes = [
   {
+    name: 'layout',
     path: '/',
-    name: 'Home',
-    component: () => import('@/views/HomeView.vue'),
+    component: () => import('../layout/index.vue'),
+    redirect: config.DASHBOARD_URL || '/dashboard',
+    children: [],
   },
   {
     path: '/login',
-    name: 'Login',
-    component: () => import('@/views/login/index.vue'),
+    component: () => import('../views/login/index.vue'),
     meta: {
       title: '登入',
+      i18nTitle: 'systemNavMenu.login',
     },
   },
   {
+    name: 'not-found',
     path: '/:pathMatch(.*)*',
-    name: 'NotFound',
-    component: () => import('@/views/NotFound.vue'), // 或自訂 404 頁面
+    hidden: true,
+    component: () => import('@/layout/other/page_404.vue'),
   },
 ]
 

@@ -1,0 +1,22 @@
+@layer components {
+    .infoType {
+        @apply flex items-center justify-center w-1/2 p-2 rounded-t-md;
+    }
+    .infoTypeUnAction {
+        @apply bg-white rounded-t-md;
+    }
+
+    .infoItem {
+        @apply w-1/2 p-2 text-center;
+    }
+    .itemLabel {
+        @apply mb-2;
+    }
+    .infoItem div {
+        @apply w-[124px] rounded-[1px] bg-[#F5F7FA] shadow-inner border px-[2px];
+    }
+    /* 隱藏字 */
+    .textWrapper {
+        @apply whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer;
+    }
+}

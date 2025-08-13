@@ -8,8 +8,9 @@ class AxiosProxy {
   constructor(axiosConfig: AxiosRequestConfig) {
     // 建立 Axios 實例，帶入自定設定或使用系統預設值
     this.instance = axios.create({
-      baseURL: axiosConfig.baseURL || sysConfig.API_URL,
+      // baseURL: axiosConfig.baseURL || sysConfig.API_URL,
       timeout: axiosConfig.timeout ?? sysConfig.TIMEOUT,
+      ...axiosConfig,
     })
     // 設定攔截器
     this.setInterceptor()
@@ -19,7 +20,7 @@ class AxiosProxy {
     // Request 攔截器：在送出請求前加入處理邏輯
     this.instance.interceptors.request.use(
       (config) => {
-        const token = '' // 你可以從 localStorage 或其他地方取得 token
+      const token = '' // 你可以從 localStorage 或其他地方取得 token
 
       if (token) {
         if (!config.headers) {
@@ -48,32 +49,47 @@ class AxiosProxy {
 }
 
 export function createRequest(config: AxiosRequestConfig = {}) {
-  // 透過 AxiosProxy 建立新的 axios 實例
   const { instance } = new AxiosProxy(config)
 
-  // 常用的 HTTP 方法封裝：回傳資料為 .data
-  function get<T = any>(url: string, params = {}, config: AxiosRequestConfig = {}) {
-    return instance.get<T>(url, { params, ...config }).then(res => res.data)
-  }
+  // ---- 改這裡：第二個參數都改成「可選」 ----
+  const get = async <T = unknown, P = unknown>(
+    url: string,
+    params?: P,
+    cfg?: AxiosRequestConfig
+  ): Promise<T> =>
+    instance.get<T>(url, { ...(cfg || {}), params }).then(r => r.data)
 
-  function post<T = any>(url: string, data = {}, config: AxiosRequestConfig = {}) {
-    return instance.post<T>(url, data, config).then(res => res.data)
-  }
+  const post = async <T = unknown, D = unknown>(
+    url: string,
+    data?: D,
+    cfg?: AxiosRequestConfig
+  ): Promise<T> =>
+    instance.post<T>(url, data, cfg).then(r => r.data)
 
-  function put<T = any>(url: string, data = {}, config: AxiosRequestConfig = {}) {
-    return instance.put<T>(url, data, config).then(res => res.data)
-  }
+  const put = async <T = unknown, D = unknown>(
+    url: string,
+    data?: D,
+    cfg?: AxiosRequestConfig
+  ): Promise<T> =>
+    instance.put<T>(url, data, cfg).then(r => r.data)
 
-  function patch<T = any>(url: string, data = {}, config: AxiosRequestConfig = {}) {
-    return instance.patch<T>(url, data, config).then(res => res.data)
-  }
+  const patch = async <T = unknown, D = unknown>(
+    url: string,
+    data?: D,
+    cfg?: AxiosRequestConfig
+  ): Promise<T> =>
+    instance.patch<T>(url, data, cfg).then(r => r.data)
 
-  function del<T = any>(url: string, data = {}, config: AxiosRequestConfig = {}) {
-    return instance.delete<T>(url, { data, ...config }).then(res => res.data)
-  }
+  const del = async <T = unknown, D = unknown>(
+    url: string,
+    data?: D,
+    cfg?: AxiosRequestConfig
+  ): Promise<T> =>
+    instance
+      .delete<T>(url, { ...(cfg || {}), data })
+      .then(r => r.data)
 
-  // 將封裝後的 API 方法作為物件回傳
-  return { get, post, put, patch, delete: del }
+  return { get, post, put, patch, delete: del, instance }
 }
 
 // 預設導出單一實例
