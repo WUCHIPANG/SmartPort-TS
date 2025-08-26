@@ -1,8 +1,13 @@
 import config from '@/config'
 import { request } from '@/utils/request'
-import type { ApiAction, ApiModule } from './_types'
+import type { ApiAction, ApiModule, PostAction } from './_types'
 
-const auth: ApiModule = {
+export type AuthModule = {
+  login: PostAction<unknown>
+  changeRole: PostAction<unknown>
+}
+
+const auth: AuthModule = {
   login: {
     url: `${config.API_URL}/au/Login/Google`,
     name: 'Google登入',

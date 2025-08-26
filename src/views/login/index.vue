@@ -143,7 +143,9 @@ const login = async(credential: string): Promise<void> => {
 
 // 多國語系 i18n 相關
 const openLangList = ref(false)
-const lang = ref<string | null>(storageLocal.getItem<string>(LANG_KEY) ?? null)
+const lang = ref<string>(
+  storageLocal.getItem<string>('APP_LANG') ?? (config.LANG as string)
+)
 const { t, toggleLang } = useToggleLang()
 const langDisplay = ref<string>('')
 

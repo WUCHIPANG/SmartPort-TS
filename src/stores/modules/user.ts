@@ -98,7 +98,7 @@ export const useUserStore = defineStore('user', {
           isMobile: this.deviceType === 'mobile',
         }
         console.log('user.js 裝置', this.deviceType)
-        const loginRes = await api.auth.login.post(payload)
+        const loginRes: any = await api.auth.login.post(payload)
         if (loginRes.status === 'success') {
           console.log('success')
           const token = loginRes.responseData.jwt
@@ -131,7 +131,7 @@ export const useUserStore = defineStore('user', {
     // 切換公司群組
     async changeCompanyGroup(data: any): Promise<any> {
       try {
-        const res = await api.auth.changeRole.post(data)
+        const res: any = await api.auth.changeRole.post(data)
         if (res.status === 'success') {
           // 先清空原本的資訊
           this.resetUserLogin('reset')
@@ -159,9 +159,9 @@ export const useUserStore = defineStore('user', {
       }
     },
     // 刷新公司群組選單
-    async refreshGroupInfo(data: any): Promise<any> {
+    async refreshGroupInfo(info: any): Promise<any> {
       try {
-        const res = await api.auth.changeRole.post(info)
+        const res: any = await api.auth.changeRole.post(info)
         if (res.status === 'success') {
           const token = res.responseData.jwt
           const userInfo = {
